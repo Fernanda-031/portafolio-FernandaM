@@ -1,0 +1,18 @@
+/* Add styles here */
+:root {
+    /* here variables goes */
+    --color-primary: #cb5c47;
+  }
+  
+  /* importar bootstrap */
+  @import '~bootstrap/dist/css/bootstrap.min.css';
+  
+  .btn--primary {
+    color: var(--color-primary);
+  }
+
+    .Logo{max-width: 300px;}
+    .Fondo{max-width: 300px;}
+    .Prueba{max-width: 300px;}
+    .Ubicacion{max-width: 40px;}
+    .Formacion{max-width: 40px;}
