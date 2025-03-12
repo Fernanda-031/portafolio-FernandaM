@@ -1,15 +1,80 @@
 /* Add styles here */
 :root {
-    /* here variables goes */
-    --color-primary: #cb5c47;
+    /* Colores*/
+    --color-rosa: #F9B8B0;
+    --color-naranja: #DE543F;
+    --color-negro: #000000; 
+    --color-blanco: #FFFFFF;
+    --color-rosa-claro: #FFE3E1; 
+
+    /* Fuentes */
+    --font-titulos: "MuseoModerno", sans-serif;
+    --font-cuerpo: "Inter", sans-serif;
+
   }
-  
-  /* importar bootstrap */
+
+  /* importaciones */
   @import '~bootstrap/dist/css/bootstrap.min.css';
+  @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
   
-  .btn--primary {
-    color: var(--color-primary);
+
+  /* Fuentes */
+
+  h1{
+    font-family: var(--font-titulos);
+    font-size: 8rem;
+    font-weight: 800;
+    color: var(--color-blanco);
   }
+
+  h2{
+    font-family: var(--font-cuerpo);
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: var(--color-blanco);
+  }
+
+  h3{
+    font-family: var(--font-titulos);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-naranja);
+  }
+
+  h4{
+    font-family: var(--font-titulos);
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: var(--color-negro);
+  }
+
+  h5{
+    font-family: var(--font-titulos);
+    font-size: 4.375rem;
+    font-weight: 600;
+    color: var(--color-rosa);
+  }
+
+  h6{
+    font-family: var(--font-titulos);
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-naranja);
+  }
+
+  h7{
+    font-family: var(--font-cuerpo);
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--color-blanco);
+  }
+
+  
+
+
+
 
     .Logo{max-width: 300px;}
     .Fondo{max-width: 300px;}

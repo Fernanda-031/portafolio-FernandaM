@@ -1,20 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>My portfolio</title>
+    <title>fernanda muciño</title>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- <meta name="author" content="Fernanda Muciño" />
-    <meta name="description" content="Brief description" />
-
-    <meta property="og:title" content="Your Page Title" />
-    <meta property="og:description" content="Brief description" />
-    <meta property="og:image" content="/some-image.png" />
-    <meta property="og:url" content="/this-page.html" />
-    <meta property="og:site_name" content="Your Site Name" /> -->
-
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="/src/img/favicon.svg" />
 
@@ -23,17 +13,28 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
     <!-- fin importacion bootstrap  -->
+
+    <!-- importacion fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+      href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" 
+      rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  
   </head>
 
-  <body>
+  <body style="background-color:#F9B8B0;">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <img width="30" class="logo" alt="logo" src="./src/imagenes/Logo.svg"/>
@@ -44,6 +45,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
+              <img width="15" class="Casa" alt="Casa" src="./src/imagenes/Iconos/CasaN.png"/>
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
@@ -62,13 +64,13 @@
 
     <!-- Inicio pag. principal  -->
     <section>
-      <h1>Portafolio</h1>
+      <h1 class="Museo-Moderno">Portafolio</h1>
       <h2>Estudiante de Diseño</h2>
       <img class="Fondo" alt="Fondo" src="./src/imagenes/Patron.svg"/>
     </section>
 
     <section>
-      <h3>Contacto </h3>
+      <h3 class="Museo-Moderno">Contacto </h3>
       <img width="40" class="correo" alt="correo" src="./src/imagenes/Iconos/correo.png"/>
       <p>Correo: lu80515@gmail.com</p>
       <img width="40" class="whatsapp" alt="whatsapp" src="./src/imagenes/Iconos/whatsapp.png"/>
@@ -80,7 +82,7 @@
 
     <!-- Inicio de presentacion  -->
     <section>
-      <h2>Sobre mi</h2>
+      <h6 class="Museo-Moderno">Sobre mi</h6>
       <img width="300" class="Foto" alt="Foto" src="./src/imagenes/Foto.JPG"/>
       <p>¡Hola!Mi nombre es Fernanda Muciño y tengo 21 años. Actualmente, soy estudiante de Diseño.
         Me considero alguien sumamente productivo y organizada en mis proyectos. Creo que para
@@ -90,7 +92,7 @@
     </section>
 
     <section>
-      <h2>Habilidades</h2>
+      <h6>Habilidades</h6>
       <ul>
         <li> Gestión del tiempo</li>
         <li> Trabajo en equipo</li>
@@ -104,17 +106,17 @@
     </section>
 
     <section>
-      <h2>Ubicación</h2>
+      <h6>Ubicación</h6>
       <img class="Ubicacion" alt="Ubicacion" src="./src/imagenes/Iconos/Ubicacion.png"/>
       <p>Alvaro Obregón, CDMX.</p>
-      <h2>Formación</h2>
+      <h6>Formación</h6>
       <img width="40" class="Formacion" alt="Formacion" src="./src/imagenes/Iconos/Formacion.png"/>
       <p>Cursando la Licenciatura en Diseño Universidad Autónoma Metropolitana Unidad Cuajimalpa</p>
     </section>
 
     <section>
       <l1>Sotfware y máquinas que se utilizar relacionadas al diseño: </l1>
-      <h2>Sotfware</h2>
+      <h6>Sotfware</h6>
       <img width="40" class="AiBarra" alt="AiBarra" src="./src/imagenes/Software/AiBarra.png"/>
       <img width="40" class="PsBarra" alt="PsBarra" src="./src/imagenes/Software/PsBarra.png"/>
       <img width="40" class="AnBarra" alt="AnBarra" src="./src/imagenes/Software/AnBarra.png"/>
@@ -124,7 +126,7 @@
     </section>
 
     <section>
-      <h2>Maquinas que uso </h2>
+      <h6>Maquinas que uso </h6>
       <ul>
         <li>Impresora 3D</li>
         <li>Cortadoara láser</li>
@@ -147,8 +149,8 @@
     <!-- Inicio de Proyecto de Lenguaje Básico  -->
     <section>
       <img width="40" class="FlechaB" alt="FlechaB" src="./src/imagenes/Iconos/FlechaB.png"/>
-      <h3>Proyectos</h3>
-      <h2>Láminas de Lenguaje Básico</h2>
+      <h7>Proyectos</h7>
+      <h5>Láminas de Lenguaje Básico</h5>
       <img width="300" class="Portada" alt="Portada" src="./src/imagenes/Lenguaje/Portada.jpg"/>
       <p>Noviembre 2022 - Febrero 2023</p>
       <p>En esta colección de láminas, elaboré ejercicios utilizando 
@@ -217,8 +219,8 @@
     <!-- Inicio de Proyecto recorrido fotográfico  -->
     <section>
       <img width="40" class="FlechaB" alt="FlechaB" src="./src/imagenes/Iconos/FlechaB.png"/>
-      <h3>Proyectos</h3>
-      <h2>Recorrido Fotográfico</h2>
+      <h7>Proyectos</h7>
+      <h5>Recorrido Fotográfico</h5>
       <img width="300" class="Portada" alt="Portada" src="./src/imagenes/Recorrido/Portada.png"/>
       <p>Octubre 2023</p>
       <p>Primer acercamiento a retratos profesionales.</p>
@@ -296,8 +298,8 @@
     <!-- Inicio de Proyecto empaque de donas  -->
     <section>
         <img width="40" class="FlechaB" alt="FlechaB" src="./src/imagenes/Iconos/FlechaB.png"/>
-        <h3>Proyectos</h3>
-        <h2>Empaque de donas</h2>
+        <h7>Proyectos</h7>
+        <h5>Empaque de donas</h5>
         <img width="300" class="Portada" alt="Portada" src="./src/imagenes/Empaque/Portada.png"/>
         <p>Mayo 2024</p>
         <p>Diseño de un empaque para donas, abarcando desde la identidad visual 
@@ -337,6 +339,7 @@
 
         <img width="300" class="PPerspectiva" alt="PPerspectiva" src="./src/imagenes/Empaque/PPerspectiva.jpg"/>
 
+        <h4>Resultado</h4>
         <img width="300" class="Fotos" alt="1" src="./src/imagenes/Empaque/1.jpg"/>
 
         <img width="300" class="Fotos" alt="2" src="./src/imagenes/Empaque/2.jpg"/>
@@ -362,8 +365,8 @@
     <!-- Inicio de Proyecto Emocionario -->
     <section>
       <img width="40" class="FlechaB" alt="FlechaB" src="./src/imagenes/Iconos/FlechaB.png"/>
-        <h3>Proyectos</h3>
-        <h2>Emocionario</h2>
+        <h7>Proyectos</h7>
+        <h5>Emocionario</h5>
         <img width="300" class="Portada" alt="Portada" src="./src/imagenes/Emocionario/Portada.jpg"/>
         <p>Octubre 2023</p>
         <p>Se realizó un diario en el que niños de 7 a 9 años pudieran aprender a comunicar sus 
@@ -398,6 +401,7 @@
             </div>
           </div>
         </div>
+
        <p>Se creó a Dimo con el propósito de ofrecer a los usuarios un personaje que los acompañara 
         durante las actividades del Diario. Posee seis emociones fundamentales, las cuales se ilustran 
         mediante colores y las expresiones del mismo personaje.</p>  
@@ -405,12 +409,71 @@
       <p>Adoptó diversas representaciones y mostró una gran versatilidad en cuanto a 
         profesiones y personalidades. De acuerdo con la actividad de la página, se colocó 
         a un Dimo que simbolizara lo que se estaba visualizando.</p>
-            
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img width="400" src="./src/imagenes/Emocionario/Mimo.png" class="Dimo" alt="Mimo"/>
+            </div>
+            <div class="carousel-item">
+              <img width="400" src="./src/imagenes/Emocionario/Bailarina.jpg" class="Dimo" alt="Bailarina"/>
+            </div>
+            <div class="carousel-item">
+              <img width="400" src="./src/imagenes/Emocionario/Osito.jpg" class="Dimo" alt="Osito"/>
+            </div>
+            <div class="carousel-item">
+              <img width="400" src="./src/imagenes/Emocionario/Pintor.png" class="Dimo" alt="Pintor"/>
+            </div>
+            <div class="carousel-item">
+              <img width="400" src="./src/imagenes/Emocionario/UAM.jpg" class="Dimo" alt="UAM"/>
+            </div>
+          </div>
+        </div>
 
+        <img width="400" class="PortadaLibro" alt="PortadaLibro" src="./src/imagenes/Emocionario/PortadaLibro.jpg"/>   
+        <img width="400" class="PaletaDimo" alt="PaletaDimo" src="./src/imagenes/Emocionario/PaletaDimo.svg"/> 
+           
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img width="400" src="./src/imagenes/Emocionario/1.1.jpg" class="Libro" alt="1.1"/>
+            </div>
+            <div class="carousel-item">
+              <img width="400" src="./src/imagenes/Emocionario/Termometro.jpg" class="Libro" alt="Termometro"/>
+            </div>
+            <div class="carousel-item">
+              <img width="400" src="./src/imagenes/Emocionario/Recolecta.jpg" class="Libro" alt="Recolecta"/>
+            </div>
+            <div class="carousel-item">
+              <img width="400" src="./src/imagenes/Emocionario/Memorama.jpg" class="Libro" alt="Memorama"/>
+            </div>
+            <div class="carousel-item">
+              <img width="400" src="./src/imagenes/Emocionario/Experimento.jpg" class="Libro" alt="Experimento"/>
+            </div>
+            <div class="carousel-item">
+              <img width="400" src="./src/imagenes/Emocionario/Diferencias.jpg" class="Libro" alt="Diferencias"/>
+            </div>
+            <div class="carousel-item">
+              <img width="400" src="./src/imagenes/Emocionario/Construye.jpg" class="Libro" alt="Construye"/>
+            </div>
+            <div class="carousel-item">
+              <img width="400" src="./src/imagenes/Emocionario/Canta.jpg" class="Libro" alt="Canta"/>
+            </div>
+          </div>
+        </div>
 
-
-
+        <p>Algunas actividades del diario.</p>
+        <h4>Resultado</h4>
+        <img width="400" class="Combo" alt="Combo" src="./src/imagenes/Emocionario/Combo.jpg"/> 
+        <img width="200" class="Libro" alt="Libro" src="./src/imagenes/Emocionario/Libro.jpg"/> 
+        <img width="200" class="Bolsa" alt="Bolsa" src="./src/imagenes/Emocionario/Bolsa.jpg"/> 
     </section> 
+
+    <section>
+      <img width="40" class="CorreoN" alt="CorreoN" src="./src/imagenes/Iconos/CorreoN.png"/>
+      <img width="40" class="InstaN" alt="InstaN" src="./src/imagenes/Iconos/InstaN.png"/>
+      <img width="40" class="WhatsN" alt="WhatsN" src="./src/imagenes/Iconos/WhatsN.png"/>
+      <img class="Fondo" alt="Fondo" src="./src/imagenes/PatronRedes.svg"/>
+    </section>
     <!-- Fin de Proyecto Emocionario -->
     
   </body>
