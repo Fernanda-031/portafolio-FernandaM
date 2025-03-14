@@ -28,9 +28,11 @@
       href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" 
       rel="stylesheet">
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
+      rel="stylesheet">
   
   </head>
 
@@ -64,13 +66,13 @@
 
     <!-- Inicio pag. principal  -->
     <section>
-      <h1 class="Museo-Moderno">Portafolio</h1>
+      <h1 class="titulos">Portafolio</h1>
       <h2>Estudiante de Diseño</h2>
       <img class="Fondo" alt="Fondo" src="./src/imagenes/Patron.svg"/>
     </section>
 
     <section>
-      <h3 class="Museo-Moderno">Contacto </h3>
+      <h3>Contacto </h3>
       <img width="40" class="correo" alt="correo" src="./src/imagenes/Iconos/correo.png"/>
       <p>Correo: lu80515@gmail.com</p>
       <img width="40" class="whatsapp" alt="whatsapp" src="./src/imagenes/Iconos/whatsapp.png"/>
@@ -82,36 +84,47 @@
 
     <!-- Inicio de presentacion  -->
     <section>
-      <h6 class="Museo-Moderno">Sobre mi</h6>
       <img width="300" class="Foto" alt="Foto" src="./src/imagenes/Foto.JPG"/>
-      <p>¡Hola!Mi nombre es Fernanda Muciño y tengo 21 años. Actualmente, soy estudiante de Diseño.
-        Me considero alguien sumamente productivo y organizada en mis proyectos. Creo que para
-        obtener buenos resultados es fundamental aprovechar al máximo el tiempo disponible.En lo
-        que respecta a los proyectos, me considero una persona innovadora y ordenada. Este portafolio
-        es una colección de todos mis trabajos y de mis habilidades en ciertas áreas.</p>
+    </section>
+
+    <section class="col-5">  
+      <div class="al-s">
+        <h6>Sobre mi</h6>
+        <p>¡Hola!Mi nombre es Fernanda Muciño y tengo 21 años. Actualmente, soy estudiante de Diseño.
+          Me considero alguien sumamente productivo y organizada en mis proyectos. Creo que para
+          obtener buenos resultados es fundamental aprovechar al máximo el tiempo disponible.En lo
+          que respecta a los proyectos, me considero una persona innovadora y ordenada. Este portafolio
+          es una colección de todos mis trabajos y de mis habilidades en ciertas áreas.</p>
+      </div>
     </section>
 
     <section>
       <h6>Habilidades</h6>
       <ul>
-        <li> Gestión del tiempo</li>
-        <li> Trabajo en equipo</li>
-        <li> Adaptabilidad y aprendizaje continuo</li>
-        <li> Comunicación verbal</li>
-        <li> Conocimiento en materiales</li>
-        <li> Pensamiento de diseño</li>
-        <li> Investigaciones de campo</li>
-      
+        <li>Gestión del tiempo</li>
+        <li>Trabajo en equipo</li>
+        <li>Adaptabilidad y aprendizaje continuo</li>
+        <li>Comunicación verbal</li>
+        <li>Conocimiento de propiedades de los materiales</li>
+        <li>Información a conceptualización</li>
+        <li>Investigaciones de campo</li>
       </ul>
     </section>
 
-    <section>
-      <h6>Ubicación</h6>
-      <img class="Ubicacion" alt="Ubicacion" src="./src/imagenes/Iconos/Ubicacion.png"/>
-      <p>Alvaro Obregón, CDMX.</p>
-      <h6>Formación</h6>
-      <img width="40" class="Formacion" alt="Formacion" src="./src/imagenes/Iconos/Formacion.png"/>
-      <p>Cursando la Licenciatura en Diseño Universidad Autónoma Metropolitana Unidad Cuajimalpa</p>
+    <section class="col-3">
+      <div class="b3">
+        <h6>Ubicación</h6>
+        <div class="al-u">
+          <img class="Ubicacion" alt="Ubicacion" src="./src/imagenes/Iconos/Ubicacion.png"/>
+          <p>Alvaro Obregón, CDMX.</p>
+        </div> 
+
+        <h6>Formación</h6>
+        <div class="al-f">
+          <img width="46" class="Formacion" alt="Formacion" src="./src/imagenes/Iconos/Formacion.png"/>
+          <p>Cursando la Licenciatura en Diseño Universidad Autónoma Metropolitana Unidad Cuajimalpa</p>
+        </div>
+      </div>
     </section>
 
     <section>
@@ -475,6 +488,34 @@
       <img class="Fondo" alt="Fondo" src="./src/imagenes/PatronRedes.svg"/>
     </section>
     <!-- Fin de Proyecto Emocionario -->
+    
+    <!-- Inicio de Carteles -->
+    <section>
+      <img width="40" class="FlechaB" alt="FlechaB" src="./src/imagenes/Iconos/FlechaB.png"/>
+      <h7>Proyectos</h7>
+      <h5>Carteles e Infografías</h5>
+      <img width="300" class="Portada" alt="Portada" src="./src/imagenes/Carteles/Portada.jpg"/>
+      <p>Colección de carteles e infografías elaborados sobre diversos temas, donde se investigó el uso y disposición de los elementos e información.</p>
+    </section>
+
+    <section>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img width="400" src="./src/imagenes/Carteles/Brief1.jpg" class="BriefDimo" alt="BriefDimo"/>
+          </div>
+          <div class="carousel-item">
+            <img width="400" src="./src/imagenes/Carteles/Brief2.jpg" class="BriefDimo" alt="BriefDimo"/>
+          </div>
+        </div>
+      </div>
+      
+
+    </section>
+      <img width="300" class="" alt="" src="./src/imagenes/Carteles/"/>
+    
+    
+    <!-- Fin de Carteles -->
     
   </body>
 </html>
