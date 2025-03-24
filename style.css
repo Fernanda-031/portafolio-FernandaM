@@ -71,6 +71,37 @@
     color: var(--color-negro);
   }
 
+  p.Menut{
+    font-family: var(--font-cuerpo);
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--color-blanco);
+  }
+
+  p.MenuF{
+    font-family: var(--font-cuerpo);
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--color-blanco);
+  }
+
+  p.TX{
+    font-family: var(--font-cuerpo);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-negro);
+  }
+
+   /*Fondo*/
+  body{
+    background-image: url('src/imagenes/Patron.svg');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;  
+    margin: 0; 
+    height: 100vh;
+  }
+  
  
    /* Alineaciones */
    .al-s{
@@ -105,7 +136,5 @@
 
 
     .Logo{max-width: 300px;}
-    .Fondo{max-width: 300px;}
-    .Prueba{max-width: 300px;}
     .Ubicacion{width: 28px; height:36;}
     .Illustrator{max-width: 40px;}
