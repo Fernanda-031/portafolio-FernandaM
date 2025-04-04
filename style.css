@@ -29,6 +29,13 @@
     color: var(--color-blanco);
   }
 
+  h1.ti-contacto{
+    font-family: var(--font-titulos);
+    font-size: 70px;
+    font-weight: 800;
+    color: var(--color-naranja);
+  }
+
   h2.ED{
     font-family: var(--font-cuerpo);
     font-size: 36px;
@@ -41,6 +48,13 @@
     font-size: 24px;
     font-weight: 600;
     color: var(--color-naranja);
+  }
+
+  h1.sub-contacto{
+    font-family: var(--font-titulos);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-negro);
   }
 
   h2.IC{
@@ -57,11 +71,11 @@
     color: var(--color-naranja);
   }
 
-  li.IC{
+  a.IC{
     font-family: var(--font-cuerpo);
     font-size: 16px;
     font-weight: 500;
-    color: var(--color-negro);
+    color: var(--color-blanco);
   }
 
   h2.Proyectos{
@@ -99,11 +113,25 @@
     color: var(--color-negro);
   }
 
+  p.fech{
+    font-family: var(--font-cuerpo);
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--color-blanco);
+  }
+
   p.MenuF{
     font-family: var(--font-cuerpo);
     font-size: 30px;
     font-weight: 500;
     color: var(--color-negro);
+  }
+
+  p.txx{
+    font-family: var(--font-cuerpo);
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--color-blanco);
   }
 
   p.TX{
@@ -113,30 +141,35 @@
     color: var(--color-negro);
   }
 
-   /*Fondo*/
-  /*body{
-    background-image: url('src/imagenes/Patron.svg');
-    background-size: cover;  
-    background-position: center; 
-    background-repeat: no-repeat;  
-    margin: 0; 
-    height: 100vh;
+  li.TX{
+    font-family: var(--font-cuerpo);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-negro);
   }
   
- 
    /* Alineaciones */
 
-  .navbar-expand-lg .navbar-collapse { /* Barra de nav */
+  /* Barra de nav */
+  .navbar-expand-lg .navbar-collapse { 
     display: flex;
     flex-basis: auto;
     justify-content: flex-end;
   }
 
-  .por-es{
+   /* Inicio */
+  .por-es{             
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    gap: 1px;    
+    gap: 1px;   
+    z-index: auto;
+    top: 300px;
+    left:450px; 
+    position: absolute;
+  }
+
+  .fondo-patron{
+    z-index: -1;
   }
 
   .estudiante-D{
@@ -144,25 +177,9 @@
     justify-content: space-evenly;
     gap: 200px;
   }
-  
-  .WIC{
-    display: flex;
-    justify-content: space-between;
-   }
 
-  .cont-naranja{
-    display: flex;
-    justify-content: center;
-  }
-
-  .ele-na{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-   }
-
-   .soft{
+  /* software y maquinas */
+   .soft{                            
     display: flex;
     flex-direction: column;
     gap: 45px;
@@ -180,21 +197,53 @@
     gap: 45px;
    }
 
-   .so-mi{
+  /* sobre mi, maquinas y software */
+  .im-ubitx{
     display: flex;
-    flex-direction: column;
-    gap: 32px;
-   }
-
-   .fp{
-    display: flex;
-   }
-
-  .foto-tx{
-    display: flex;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: baseline;
     gap: 10px;
   }
+
+  .ubi-esp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .im-fortx{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start ;
+    gap: 10px;
+  }
+
+  .ubi-for{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .huf-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 335px;
+    width: 100%;
+  }
+
+  /*Contacto*/
+  .tx-conctactoim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:300px;
+    z-index: auto;
+    top: 470px;
+    left:270px; 
+    position: absolute;
+  }
+  
 
   .p-nf{                  /*menu*/
     display: flex;
@@ -202,99 +251,26 @@
     justify-content: center;
     gap: 0px;
   }
-
-  .MenuIm{                  /*nivel 2*/
+                
+  .fila-3d{                   /*nivel 2*/
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     gap: 16px;
-    width: 100%;
+    width: 100%;   
+  }
+             
+  .fila-2d{                   /*nivel 3*/
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    width: 100%;   
   }
 
-  .n-3p{
+  .fila-4d{                   /*nivel 4*/
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    gap: 208px;
-    width: 100%;
-  }
-
-  .f-3p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 370px;
-    width: 100%;
-  }
-
-  .texto-p3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0px;
-  }
-
-  .MenuIm2{                    /*nivel 3*/
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
-  }
-
-  .n-2p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 415px;
-  }
-    
-  .f-2p{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 260px;
-  }
-
-  .texto-p2{
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-  }
-
-  .MenuIm4{                  /*nivel 4*/
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 23px;
-    width: 100%;
-  }
-
-  .n-4p{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 160px;
-    width: 100%;
-  }
-
-  .f-4p{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 130px;
-  }
-
-  .texto-p4{
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
+    width: 100%;   
   }
 
   .niv-ul{                           /*separacion patron y ultimo elemento*/
@@ -309,18 +285,42 @@
     gap: 74px;
   }
 
-  .ret-4{                     /*lenguaje basico*/
+  .fle-tx{                          /*Portada de proyectos*/
     display: flex;
     justify-content: flex-start;
-    gap: 22px;
+    align-items: baseline;
+    gap: 10px;
   }
 
-  /*.ret-tx{
+  .portada-lb{
+    z-index: -1;
+    width: 100%;
+  }
+
+  .tx-portadalb{
     display: flex;
     flex-direction: column;
+    gap: 1px;   
+    z-index: auto;
+    top: 200px;
+    left:50px; 
+    position: absolute;
+  }
+
+  .portd-ele{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;   
+  }
+  
+  /*lenguaje basico*/
+  .ret-4{                           
+    display: flex;
     justify-content: center;
-    gap: 71px;
-  }*/
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 76px;
+  }
 
   .nivel-2{
     display: flex;
@@ -328,130 +328,214 @@
     gap: 22px;
   }
 
-  .tx-nivel2{
-    display: flex;
-    direction: row;
-    justify-content: space-evenly;
-    gap: 260px;
-  }  
-
-  
-  .Retra-12{                     /*recorrido fotografico*/
+  .imagenes2{                   
     display: flex;
     justify-content: center;
-    gap: 22px;
-  }            
+    gap: 21px;
+    width: 100%;   
+  }
 
-  .tx-12{
+  .tx-portadainfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1px;   
+    z-index: auto;
+    top: 420px;
+    left: 220px; 
+    position: absolute;
+  }
+
+  /*recorrido fotografico*/
+  
+  .tx-portadainfoRF{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;   
+    z-index: auto;
+    top: 420px;
+    left: 410px; 
+    position: absolute;
+  }         
+
+  .tx-retrato{ 
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 525px;
-  }
-    
-  .Retra-3{
-    display: flex;
-    justify-content: center;
-  }
-
-  /*.tx-3{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20PX;
-  }*/
-
-  .concep{
-    display: flex;
-    justify-content: center;
-    gap: 45px;
-  }            
+    margin-top: 76px;
+    gap: 22px;
+  }          
 
   .tx-concep{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 80px;
-    width: 100%;
+    flex-direction: row;
+    gap: 50px;
   }
 
-  .aficion-23{
+  .tx-aficion{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    flex-direction: row;
+    gap: 30px;
   }
 
-  .tx-aficion23{
+  /*emocionario*/
+
+  .tx-portadainfoE{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 600px;
-    width: 100%;
-  }
+    flex-direction: column;
+    gap: 1px;   
+    z-index: auto;
+    top: 350px;
+    left: 100px; 
+    position: absolute;
+  }  
 
-  .res-23{                                  /*emocionario*/
+  .res-23{                                  
     display: flex;
     justify-content: center;
     gap: 22px;
   }
   
-  .centro-2im{                              /*empaque de donas*/
+  /*empaque de donas*/
+
+  .tx-portadainfoEm{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;   
+    z-index: auto;
+    top: 380px;
+    left: 200px; 
+    position: absolute;
+  }  
+
+  .centro-2im{ 
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    margin-top: 76px;
     gap: 33px;
   }
 
-  .centro-2tx{
+  .centro-co{ 
     display: flex;
     justify-content: center;
-    gap: 400px;
+    flex-direction: column;
+    margin-top: 33px;
+    gap: 33px;
   }
 
-  .centro-2pla{
+  .im2-cenem{ 
     display: flex;
     justify-content: center;
-    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
   }
 
-  .cent-3im{
+  .im3-cenem{ 
     display: flex;
     justify-content: center;
-    gap: 17px;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 18px;
   }
 
-  .centro-2fo{
+  .im2-res{ 
     display: flex;
     justify-content: center;
-    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    gap: 23px;
   }
 
-  .mac-centro2im{                     /*macetas*/
+  /*macetas*/
+
+  .tx-portadainfoMac{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;   
+    z-index: auto;
+    top: 340px;
+    left: 120px; 
+    position: absolute;
+  }
+  .mac-centro2im{                     
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    align-items: end;
+    margin-top: 76px;
     gap: 20px;
   }        
-  
-  .mac-tx2{
+
+  .mac-res2im{                     
     display: flex;
     justify-content: center;
-    gap: 400px;
-  }
+    flex-direction: row;
+    align-items: end;
+    gap: 20px;
+  }  
 
   .mac-centro3im{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .mac-2imtx{                     
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .mac-proceso3im{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     gap: 17px;
   }
 
-  .pro-centro3im{
+  .proceso-sepa{
     display: flex;
     justify-content: center;
-    gap: 7px;
+    flex-direction: row;
+    gap: 29px;
   }
 
-  .alinear_base{                      /*botella*/
+  .resultado-sep{ 
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    gap: 33px;
+  }
+
+  /*botella*/
+
+  .tx-portadainfoBot{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;   
+    z-index: auto;
+    top: 420px;
+    left: 220px; 
+    position: absolute;
+  }
+
+  .Cent-im{
+    display: flex;
+    justify-content: center;
+    margin-top: 76px;
+    gap: 20px;
+  }
+
+  .alinear_base{                      
+    display: flex;
+    justify-content: center;
+    align-items: start;
     gap: 20px;
   }
 
@@ -461,47 +545,80 @@
     gap: 40px;
   }
 
-  .nubu-4im{                         /*Nubu*/
+  /*Nubu*/
+  .tx-portadainfNubu{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;   
+    z-index: auto;
+    top: 350px;
+    left: 100px; 
+    position: absolute;
+  }
+
+  .nubu-4im{                         
     display: flex;
     justify-content: center;
     gap: 20px;
+  }
+
+  .planosN{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 76px;
+      gap: 33px;
   }
   
   .nubu-2im{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    flex-direction: row;
+    align-items: end;
+    gap: 18px;
   }
 
-  .tx-2partes{
+  /*prenda ciclista*/
+  .tx-portadainfPC{
     display: flex;
-    direction: row;
-    justify-content: space-evenly;
-    gap: 260px;
+    flex-direction: column;
+    gap: 1px;   
+    z-index: auto;
+    top: 330px;
+    left: 100px; 
+    position: absolute;
   }
 
-  .prenda-2im{                    /*prenda ciclista*/
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-  }
   
   .prenda-3im{                    
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     gap: 20px;
   }
 
-  .tx-proceso{
+  .prenda-esp{ 
     display: flex;
-    direction: row;
-    justify-content: space-evenly;
-    gap: 260px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 33px;
+    gap: 33px;
   }
+
+
 
   .juguete-2im{                   /*juguete*/
     display: flex;
     justify-content: center;
+    align-items: end;
+    margin-top: 76px;
+    gap: 20px;
+  }
+
+  .modelado-2im{                  
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
   }
 
@@ -514,21 +631,23 @@
   .dummy-2im{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 40px;
   }
 
   .proceso-4im{
     display: flex;
     justify-content: center;
+    direction: row;
     gap: 25px;
   }
 
-  .tx-juguete2{
+  .espaciado-jg{
     display: flex;
-    direction: row;
-    justify-content: space-evenly;
-    gap: 260px;
-  }
+    justify-content: center;
+    flex-direction: column;
+    gap: 33px;
+}
 
 
 
@@ -553,27 +672,7 @@
     height: 100vh;
     width: 100%;
    }
-
-   .al-u{
-    display: flex;
-    align-items: baseline;
-    gap: 25px;
-   }
-
-   .al-f{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-   }
-
-   .b3{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 20px;
-   }
-
-
+   
    .lo-nom{
     display: flex;
     align-items: center;
@@ -586,10 +685,6 @@
     display: flex;
     gap: 300px;
    }
-
-
-   
-
   
    /* Centar*/
   .Cent{
@@ -607,9 +702,11 @@
   
   /*Boton y cierre de pag. (patron)*/
   .Boton{
-    
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
   }  
 
   .Boton button {
@@ -624,6 +721,10 @@
   .Boton button:hover {
     background-color: #DE543F; 
     border-color: #DE543F; 
+  }
+
+  .patronfinal{
+    width: 100%;
   }
 
 

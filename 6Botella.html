@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="style.css" rel="stylesheet" />
-    <link rel="icon" type="image/svg+xml" href="/src/img/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="src/imagenes/Iconos/Logo.svg" />
 
     <!-- importar bootstrap  -->
     <link
@@ -38,7 +38,7 @@
 
   <body style="background-color:#FFE3E1;">
 
-    <nav class="navbar navbar-expand-lg" style="background-color:#F9B8B0;">
+    <nav class="navbar navbar-expand-lg" style="background-color:#000000;">
       <div class="container-fluid">
       
         <div class="lo-nom">
@@ -57,17 +57,17 @@
           <ul class="navbar-nav IC">
             <img width="28" class="" alt="" src="./src/imagenes/Iconos/CasaNaranja.svg"/>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link IC" href="index.html">Home</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="sobremi.html">Sobre mi</a>
+              <a class="nav-link IC" href="index.html">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="menupro.html">Proyectos</a>
+              <a class="nav-link IC" href="menupro.html">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Contacto</a>
+              <a class="nav-link IC" href="Contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -76,49 +76,68 @@
 
      <!-- Inicio Proyecto de Publicidad de jugo -->
     <section>
-        <img width="20" class="FlechaB" alt="FlechaB" src="./src/imagenes/Iconos/FlechaBlanca.svg"/>
-        <h2 class="Proyectos">Proyectos</h2>
-        <h1 class="NombreP">Publicidad de Jugo</h1>
-        <img class="Portada" alt="Portada" src="./src/imagenes/Jugo/PortadaB.png"/>
-        <p class="Menut">Septiembre 2024</p>
-        <p class="MenuF">Se diseñó una nueva forma para la botella del jugo "Frutos de vida", y se llevaron a cabo varios renders con fines publicitarios. Se modelaron y crearon distintos escenarios para enriquecer el diseño.</p>
-        <p class="MenuF">Hecho por:</p>
-        <p class="MenuF">Fernanda Muciño</p>
+      <img class="portada-lb" src="./src/imagenes/Jugo/PortadaBot.png"/>
+
+      <div class="tx-portadalb">
+        <div class="fle-tx">
+          <img width="20" src="./src/imagenes/Iconos/FlechaBlanca.svg"/>
+          <h2 class="Proyectos">Proyectos</h2>
+        </div>
+
+          <h1 class="NombreP">Publicidad de Jugo</h1>
+      </div>
     </section>
 
     <section>
-      <div class="Cent">
-        <img src="./src/imagenes/Jugo/Proceso.png"/>
-      </div>
-
-        <p class="TX">Proceso de modelado de botella.</p>
+      <div class="tx-portadainfoBot">
+        <div class="text-center col-10">
+          <p class="fech">Septiembre 2024</p>
+          <p class="txx">Se diseñó una nueva forma para la botella del jugo "Frutos de vida", y se llevaron a cabo varios renders con fines publicitarios. Se modelaron y crearon distintos escenarios para enriquecer el diseño.</p>
+          <p class="txx">Hecho por:</p>
+          <p class="txx">Fernanda Muciño</p>
+        </div>
+      </div> 
     </section>
 
     <section>
-      <div class="alinear_base">
-        <img src="./src/imagenes/Jugo/ZM1.png"/>
-        <img src="./src/imagenes/Jugo/ZM2.png"/>
-      </div>
-
-        <p class="TX">Render Jugo de Zarzamora manzana.</p>
-    </section>
-
-    <section>
-      <div class="alinear_base">
-        <img src="./src/imagenes/Jugo/NAN1.png"/>
-        <img src="./src/imagenes/Jugo/NAN2.png"/>
-      </div>
-
-        <p class="TX">Render Jugo de naranja, apio y nopal.</p>
+      <div class="Cent-im">
+        <div>
+          <img src="./src/imagenes/Jugo/Proceso.png"/>
+          <p class="TX">Proceso de modelado de botella.</p>
+        </div>       
     </section>
 
     <section>
       <div class="alinear_base">
-        <img src="./src/imagenes/Jugo/PAN1.png"/>
-        <img src="./src/imagenes/Jugo/PAN2.png"/>
-      </div>
+        <div>
+          <img src="./src/imagenes/Jugo/ZM1.png"/>
+          <p class="TX">Render Jugo de Zarzamora manzana.</p>
+        </div>
 
-        <p class="TX">Render Jugo de piña, apio y nopal.</p>
+        <div><img src="./src/imagenes/Jugo/ZM2.png"/></div>        
+      </div>       
+    </section>
+
+    <section>
+      <div class="alinear_base">
+        <div>
+          <img src="./src/imagenes/Jugo/NAN1.png"/>
+          <p class="TX">Render Jugo de naranja, apio y nopal.</p>
+        </div>
+
+        <div><img src="./src/imagenes/Jugo/NAN2.png"/></div>        
+      </div>       
+    </section>
+
+    <section>
+      <div class="alinear_base">
+        <div>
+          <img src="./src/imagenes/Jugo/PAN1.png"/>
+          <p class="TX">Render Jugo de piña, apio y nopal.</p>
+        </div>
+
+        <div><img src="./src/imagenes/Jugo/PAN2.png"/></div>        
+      </div>       
     </section>
 
     <section>
@@ -132,23 +151,27 @@
         carteles que representaban la combinación de los tres sabores.</p>
       </div>
     </section>
-    
+
+
     <section>
       <div class="Cent">
-        <img width="1320" src="./src/imagenes/Jugo/CartelB.png"/>
-      </div>
-
-        <p class="TX">Ejemplo de un cartel con la información.</p>
+        <div>
+          <img width="1320" src="./src/imagenes/Jugo/CartelB.png"/>
+          <p class="TX">Ejemplo de un cartel con la información.</p>
+        </div>       
     </section>
     
     <section>
-      <div class="Boton">
-        <a href="menupro.html">
-          <button type="button" class="btn btn-outline-secondary">Ver más proyectos</button>
-        </a>
-      </div>
+      <div class="centro-co">
+        <div class="Boton">
+          <a href="menupro.html">
+            <button type="button" class="btn btn-outline-secondary">Ver más proyectos</button>
+          </a>
+        </div>
+        
 
-      <div><img src="./src/imagenes/PatronRedes.svg"/></div>
+          <div><img src="./src/imagenes/PatronBC.svg"/></div>
+      </div>     
     </section> 
     <!-- Fin Proyecto de Publicidad de jugo -->
      

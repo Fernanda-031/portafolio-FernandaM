@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="style.css" rel="stylesheet" />
-    <link rel="icon" type="image/svg+xml" href="/src/img/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="src/imagenes/Iconos/Logo.svg" />
 
     <!-- importar bootstrap  -->
     <link
@@ -38,7 +38,7 @@
 
   <body style="background-color:#FFE3E1;">
 
-    <nav class="navbar navbar-expand-lg" style="background-color:#F9B8B0;">
+    <nav class="navbar navbar-expand-lg" style="background-color:#000000;">
       <div class="container-fluid">
       
         <div class="lo-nom">
@@ -57,17 +57,17 @@
           <ul class="navbar-nav IC">
             <img width="28" class="" alt="" src="./src/imagenes/Iconos/CasaNaranja.svg"/>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link IC" href="index.html">Home</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="sobremi.html">Sobre mi</a>
+              <a class="nav-link IC" href="index.html">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="menupro.html">Proyectos</a>
+              <a class="nav-link IC" href="menupro.html">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Contacto</a>
+              <a class="nav-link IC" href="Contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -76,29 +76,35 @@
 
      <!-- Inicio de Proyecto de Lenguaje Básico  -->
      <section>
-        <img width="20" class="FlechaB" alt="FlechaB" src="./src/imagenes/Iconos/FlechaBlanca.svg"/>
-        <h2 class="Proyectos">Proyectos</h2>
-        <h1 class="NombreP">Láminas de Lenguaje Básico</h1>
-        <img class="Portada" alt="Portada" src="./src/imagenes/Lenguaje/PortadaC.png"/>
-        <p class="Menut">Noviembre 2022 - Febrero 2023</p>
-        <p class="MenuF">En esta colección de láminas, elaboré ejercicios utilizando 
-          el lenguaje básico de diseño, explorando diferentes combinaciones 
-          y conceptos de manera manual. Generando patrones para la creación 
-          de figuras en 3D que los incorporara.</p>
-        <p class="MenuF">Hecho por:</p>
-        <p class="MenuF">Fernanda Muciño</p>
-      </section>
-  
-      <section>
-        <div class="ret-tx">
-          <div class="Cent">
-            <img width="900" src="./src/imagenes/Lenguaje/4petalos.jpg"/>
-          </div>
+        <img width="1480" class="portada-lb" src="./src/imagenes/Lenguaje/PortadaLB1.png"/>
 
-          <div class="ret-4">
-            <p class="TX">Retícula circular flor de 4 pétalos</p>
-          </div>
+      <div class="tx-portadalb">
+        <div class="fle-tx">
+          <img width="20" src="./src/imagenes/Iconos/FlechaBlanca.svg"/>
+          <h2 class="Proyectos">Proyectos</h2>
         </div>
+
+          <h1 class="NombreP">Láminas de Lenguaje Básico</h1>
+      </div>
+     </section>
+       
+     <section>
+      <div class="tx-portadainfo">
+        <div class="text-center col-10">
+          <p class="fech">Noviembre 2022 - Febrero 2023</p>
+          <p class="txx">En esta colección de láminas, elaboré ejercicios utilizando el lenguaje básico de diseño, explorando diferentes combinaciones 
+          y conceptos de manera manual. Generando patrones para la creación de figuras en 3D que los incorporara.</p>
+          <p class="txx">Hecho por:</p>
+          <p class="txx">Fernanda Muciño</p>
+        </div>
+      </div>
+     </section>
+
+     <section>
+      <div class="ret-4">
+        <img width="900" src="./src/imagenes/Lenguaje/4petalos.jpg"/>
+        <p class="TX">Retícula circular flor de 4 pétalos</p>
+      </div>
       </section>
   
       <section>
@@ -107,27 +113,27 @@
           <img src="./src/imagenes/Lenguaje/Circulos.png"/>
         </div>
 
-        <p class="TX">Ejercicio con compás</p>
+        <div class="text-center"><p class="TX">Ejercicio con compás</p></div>
       </section>
   
       <section>
-        <div class="Cent">
+        <div class="text-center">
           <img width="900" src="./src/imagenes/Lenguaje/FormaEquilibriob.png"/>
+          <p class="TX">Forma y equilibrio</p>
         </div>
-        <p class="TX">Forma y equilibrio</p>
       </section>
 
       <section>
-        <div class="nivel-2">
-          <div><img src="./src/imagenes/Lenguaje/PesoVisual.png"/></div>
-          <div><img src="./src/imagenes/Lenguaje/RitmoG.png"/></div>
-        </div>
-      </section>
-      
-      <section>
-        <div class="tx-nivel2">
-          <p class="TX">Peso visual</p>
-          <p class="TX">Ritmo geométrico</p>
+        <div class="imagenes2">
+          <div class="text-center">
+            <img src="./src/imagenes/Lenguaje/PesoVisual.png"/>
+            <p class="TX">Peso visual</p>
+          </div>
+
+          <div class="text-center">
+            <img src="./src/imagenes/Lenguaje/RitmoG.png"/>
+            <p class="TX">Ritmo geométrico</p>
+          </div>
         </div>
       </section>
   
@@ -136,8 +142,7 @@
           <img src="./src/imagenes/Lenguaje/Cuadrado.png"/>
           <img src="./src/imagenes/Lenguaje/Circulo.png"/>
         </div>
-
-        <p class="TX">Texturas cierre visual</p>
+        <div class="text-center"><p class="TX">Texturas cierre visual</p></div>
       </section>
   
       <section>
@@ -146,7 +151,7 @@
         <img src="./src/imagenes/Lenguaje/TF.png"/>
         </div>
 
-        <p class="TX">Tetraedro plantilla con patrón</p>
+        <div class="text-center"><p class="TX">Tetraedro plantilla con patrón</p></div>
       </section>
 
       <section> 
@@ -155,7 +160,7 @@
           <img src="./src/imagenes/Lenguaje/OF.png"/>
         </div>
 
-        <p class="TX">Octaedro plantilla con patrón</p>
+        <div class="text-center"><p class="TX">Octaedro plantilla con patrón</p></div>
       </section>
 
       <selection> 
@@ -164,7 +169,7 @@
           <img src="./src/imagenes/Lenguaje/CF.png"/>
         </div>
 
-        <p class="TX">Cubo plantilla con patrón</p>
+        <div class="text-center"><p class="TX">Cubo plantilla con patrón</p></div>
       </selection>
 
       <section>
@@ -173,7 +178,7 @@
           <img src="./src/imagenes/Lenguaje/DF.png"/>
         </div>
 
-        <p class="TX">Dodecaedro plantilla con patrón</p>
+        <div class="text-center"><p class="TX">Dodecaedro plantilla con patrón</p></div>
       </section>
   
       <section>
@@ -182,17 +187,15 @@
           <img src="./src/imagenes/Lenguaje/CalF.png"/>
         </div>
 
-        <p class="TX">Caleidociclo plantilla con patrón</p>
-      </section>
-  
-      <section>
         <div class="Boton">
+          <div class="text-center"><p class="TX">Caleidociclo plantilla con patrón</p></div>
+      
           <a href="menupro.html">
             <button type="button" class="btn btn-outline-secondary">Ver más proyectos</button>
           </a>
-        </div>
 
-        <div><img src="./src/imagenes/PatronRedes.svg"/></div>
+          <img src="./src/imagenes/PatronBC.svg"/>
+        </div>
       </section> 
       <!-- Fin de Proyecto de Lenguaje Básico -->
 

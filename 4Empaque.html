@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="style.css" rel="stylesheet" />
-    <link rel="icon" type="image/svg+xml" href="/src/img/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="src/imagenes/Iconos/Logo.svg" />
 
     <!-- importar bootstrap  -->
     <link
@@ -38,7 +38,7 @@
 
   <body style="background-color:#FFE3E1;">
 
-    <nav class="navbar navbar-expand-lg" style="background-color:#F9B8B0;">
+    <nav class="navbar navbar-expand-lg" style="background-color:#000000;">
       <div class="container-fluid">
       
         <div class="lo-nom">
@@ -57,17 +57,17 @@
           <ul class="navbar-nav IC">
             <img width="28" class="" alt="" src="./src/imagenes/Iconos/CasaNaranja.svg"/>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link IC" href="index.html">Home</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="sobremi.html">Sobre mi</a>
+              <a class="nav-link IC" href="index.html">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="menupro.html">Proyectos</a>
+              <a class="nav-link IC" href="menupro.html">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Contacto</a>
+              <a class="nav-link IC" href="Contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -76,120 +76,136 @@
 
     <!-- Inicio de Proyecto empaque de donas  -->
     <section>
-        <img width="20" class="FlechaB" alt="FlechaB" src="./src/imagenes/Iconos/FlechaBlanca.svg"/>
-        <h2 class="Proyectos">Proyectos</h2>
-        <h1 class="NombreP">Empaque de donas</h1>
-        <img class="Portada" alt="Portada" src="./src/imagenes/Empaque/Portada_5.png"/>
-        <p class="Menut">Mayo 2024</p>
-        <p class="MenuF">Diseño de un empaque para donas, abarcando desde la identidad visual 
-          hasta la creación del empaque en sí. El trabajo se llevó a cabo 
-          utilizando puntos de fuga,monteas,vistas isométricas y perspectivas 
-          todo digitalmente. Finalmente, se realizó la impresión y se armo el 
-          empaque a escala.</p>
-        <p class="MenuF">Hecho por:</p>
-        <p class="MenuF">Fernanda Muciño</p>
+      <img class="portada-lb" src="./src/imagenes/Empaque/PortadaEmp.png"/>
+
+      <div class="tx-portadalb">
+        <div class="fle-tx">
+          <img width="20" class="FlechaB" alt="FlechaB" src="./src/imagenes/Iconos/FlechaBlanca.svg"/>
+          <h2 class="Proyectos">Proyectos</h2>
+        </div>
+
+          <h1 class="NombreP">Empaque de donas</h1>
+      </div>
+    </section>
+
+    <section>
+      <div class="tx-portadainfoEm">
+        <div class="text-center col-10">
+          <p class="fech">Mayo 2024</p>
+          <p class="txx">Diseño de un empaque para donas, abarcando desde la identidad visual 
+            hasta la creación del empaque en sí. El trabajo se llevó a cabo 
+            utilizando puntos de fuga,monteas,vistas isométricas y perspectivas 
+            todo digitalmente. Finalmente, se realizó la impresión y se armo el 
+            empaque a escala.</p>
+          <p class="txx">Hecho por:</p>
+          <p class="txx">Fernanda Muciño</p>
+        </div>
+      </div>
       </section>
   
       <section>
         <div class="centro-2im">
-          <img src="./src/imagenes/Empaque/IsoA.png"/>
-          <img src="./src/imagenes/Empaque/IsoC.png"/>
-        </div>
+          <div>
+            <img src="./src/imagenes/Empaque/IsoA.png"/>
+            <p class="TX">Isométrico empaque abierto</p>
+          </div>
 
-        <div class="centro-2tx">
-          <p class="TX">Isométrico empaque abierto</p>
-          <p class="TX">Isométrico empaque cerrado</p>
-        </div>
-      </section>
-
-      <section>
-        <div class="Cent">
-          <img src="./src/imagenes/Empaque/PersA.png"/>
-        </div>
-
-        <p class="TX">Perspectiva y sombra de empaque abierto</p>
-      </section>
-
-      <section>
-        <div class="Cent">
-          <img src="./src/imagenes/Empaque/PersC.png"/>
-        </div>
-
-        <p class="TX">Perspectiva empaque cerrado</p>
-      </section>
-  
-      <section><h1 class="SNe">Identidad</h1></section>
-
-      <section>
-        <div class="Cent">
-          <img src="./src/imagenes/Empaque/Patron.png"/>
+          <div>
+            <img src="./src/imagenes/Empaque/IsoC.png"/>
+            <p class="TX">Isométrico empaque cerrado</p>
+          </div>
         </div>
       </section>
 
       <section>
         <div class="Cent">
-          <img src="./src/imagenes/Empaque/Paleta_1.png"/>
+          <span class="text-left">
+            <img src="./src/imagenes/Empaque/PersA.png"/>
+            <p class="TX">Perspectiva y sombra de empaque abierto</p>
+          </span>
         </div>
       </section>
 
       <section>
         <div class="Cent">
-          <img src="./src/imagenes/Empaque/Marca.png"/>
+          <span class="text-left">
+            <img src="./src/imagenes/Empaque/PersC.png"/>
+            <p class="TX">Perspectiva empaque cerrado</p>
+          </span>
         </div>
       </section>
 
       <section>
         <div class="Cent">
-          <img src="./src/imagenes/Empaque/Desarrollo.png"/>
+          <div class="centro-co">
+            <span class="text-left">
+              <h1 class="SNe">Identidad</h1>  
+              <img src="./src/imagenes/Empaque/Patron.png"/>
+            </span>
+            <div>
+              <img src="./src/imagenes/Empaque/Paleta_1.png"/>
+            </div>
+            <div>       
+              <img src="./src/imagenes/Empaque/Marca.png"/>     
+            </div> 
+            <div>      
+              <img src="./src/imagenes/Empaque/Desarrollo.png"/>
+            </div> 
+          </div>
         </div>
       </section>
 
-      <section><h1 class="SNe">Planos</h1></section>
+      <section> 
+        <div class="im2-cenem">
+            <div>
+              <h1 class="SNe">Planos</h1>
+              <img src="./src/imagenes/Empaque/MonteC.png"/>
+              <p class="TX">Monteas e isométricos</p>
+            </div>
 
-      <section>
-        <div class="centro-2pla">
-          <img src="./src/imagenes/Empaque/MonteC.png"/>
-          <img src="./src/imagenes/Empaque/MonteaA.png"/>
+            <div>
+              <img src="./src/imagenes/Empaque/MonteaA.png"/>
+            </div>
         </div>
       </section>
 
       <section>
         <div class="Cent">
-          <img class="PerSom" alt="PerSom" src="./src/imagenes/Empaque/PerSom.png"/>
-        </div>
-      </section>
-  
-      <section><h1 class="SNe">Resultado</h1></section>
-
-      <section>
-        <div class="cent-3im">
-          <img src="./src/imagenes/Empaque/1.png"/>
-          <img src="./src/imagenes/Empaque/2.png"/>
-          <img src="./src/imagenes/Empaque/3.png"/>
+          <div>
+            <img src="./src/imagenes/Empaque/PerSom.png"/>
+            <p class="TX">Perspectiva</p>
+          </div>
         </div>
       </section>
   
       <section>
-        <div class="Cent">
-          <img src="./src/imagenes/Empaque/4.png"/>
-        </div>
-      </section>
-  
-      <section>
-        <div class="centro-2fo">
-          <img src="./src/imagenes/Empaque/5.png"/>
-          <img src="./src/imagenes/Empaque/6.png"/>
-        </div>
-      </section>
-  
-      <section>
-        <div class="Boton">
-          <a href="menupro.html">
-            <button type="button" class="btn btn-outline-secondary">Ver más proyectos</button>
-          </a>
-        </div>
+        <div class="centro-co">
+          <div class="im3-cenem">
+            <div>
+              <h1 class="SNe">Resultado</h1>
+              <img src="./src/imagenes/Empaque/1.png"/>
+            </div>
 
-        <div><img src="./src/imagenes/PatronRedes.svg"/></div>
+            <div><img src="./src/imagenes/Empaque/2.png"/></div>
+
+            <div><img src="./src/imagenes/Empaque/3.png"/></div>
+          </div>
+
+          <div class="im2-res">
+            <img src="./src/imagenes/Empaque/5.png"/>
+            <img src="./src/imagenes/Empaque/6.png"/>
+          </div>
+        
+      
+          <div class="Boton">
+              <a href="menupro.html">
+                <button type="button" class="btn btn-outline-secondary">Ver más proyectos</button>
+              </a>
+        </div>
+        
+
+               <img src="./src/imagenes/PatronBC.svg"/>
+          </div>
       </section> 
     <!-- Fin de Proyecto empaque de donas  -->
 
