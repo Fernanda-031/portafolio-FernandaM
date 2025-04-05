@@ -78,6 +78,13 @@
     color: var(--color-blanco);
   }
 
+  a.tx-nav{
+    font-family: var(--font-cuerpo);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-naranja);
+  }
+
   h2.Proyectos{
     font-family: var(--font-cuerpo);
     font-size: 40px;
@@ -194,10 +201,21 @@
    .soft-maq{
     display: flex;
     flex-direction: column;
+    margin-top: 33px;
     gap: 45px;
    }
 
   /* sobre mi, maquinas y software */
+
+  .foto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 76px;
+    margin-left: 150px;
+    gap: 32px;
+  }
+
   .im-ubitx{
     display: flex;
     justify-content: flex-start;
@@ -228,7 +246,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 335px;
+    margin-left: 310px;
+    margin-top: 33px;
+    gap: 71px;
     width: 100%;
   }
 
@@ -392,11 +412,23 @@
     position: absolute;
   }  
 
-  .res-23{                                  
+  .esp-inicio{
+    margin-top: 76px;
+  }
+
+  .carrusel-tx{
     display: flex;
     justify-content: center;
-    gap: 22px;
+    align-items: start;
+    margin-top: 33px;
+    gap: 32px;
   }
+
+  .tx-act{
+    margin-left: 310px;
+  }
+
+ 
   
   /*empaque de donas*/
 
@@ -605,9 +637,9 @@
     gap: 33px;
   }
 
+  /*juguete*/
 
-
-  .juguete-2im{                   /*juguete*/
+  .juguete-2im{                   
     display: flex;
     justify-content: center;
     align-items: end;
@@ -725,6 +757,11 @@
 
   .patronfinal{
     width: 100%;
+  }
+
+  .pat-ini{
+    width: 100%;
+    margin-top: 33px;
   }
 
 
