@@ -30,10 +30,10 @@
   }
 
   h1.ti-contacto{
-    font-family: var(--font-titulos);
-    font-size: 70px;
+    font-family: var(--font-cuerpo);
+    font-size: 50px;
     font-weight: 800;
-    color: var(--color-naranja);
+    color: var(--color-negro);
   }
 
   h2.ED{
@@ -155,14 +155,25 @@
     color: var(--color-negro);
   }
   
-   /* Alineaciones */
+  /* Alineaciones */
 
   /* Barra de nav */
+
+  .logom{
+    display: flex;
+  }
+
   .navbar-expand-lg .navbar-collapse { 
     display: flex;
     flex-basis: auto;
     justify-content: flex-end;
   }
+
+  .lo-nom{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+   }
 
    /* Inicio */
   .por-es{             
@@ -260,8 +271,12 @@
     gap:300px;
     z-index: auto;
     top: 470px;
-    left:270px; 
+    left:300px; 
     position: absolute;
+  }
+
+  .espa-contacto{
+    margin-top: 50px;
   }
   
 
@@ -703,12 +718,6 @@
     align-items: center;
     height: 100vh;
     width: 100%;
-   }
-   
-   .lo-nom{
-    display: flex;
-    align-items: center;
-    gap: 14px;
    }
 
    .C1{

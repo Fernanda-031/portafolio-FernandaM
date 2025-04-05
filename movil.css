@@ -1,0 +1,95 @@
+@media only screen and (max-width: 600px) {
+    
+  }
+
+  /*Fuentes*/
+    h1.titulos{
+        font-size: 50px;   
+    }
+
+    p.SNe{
+        font-size: 15px;
+    }
+
+    p.Menut{
+        font-size: 15px;
+    }
+
+    p.MenuF{
+        font-size: 11px;
+    }
+
+    p.centro-tipo{
+        text-align: center;
+        flex-direction: column;
+    }
+  /* Alineaciones */
+
+  /* Barra de nav */
+    .logom{
+        width: 30px;
+    }
+
+    .lo-nom{
+        align-items: center;
+        gap: 0px
+       }
+    
+    .casa-nav{
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+    }
+
+    /*Menu*/
+    .PortLB-menu{
+        width: 386px;
+    }
+
+    .titulo-pri{
+        gap: 15px;
+    }
+
+    .Portrre-menu{
+        width: 126px;
+        height: 145px;
+    }
+
+    .Portdimo-menu{
+        width: 126px;
+        height: 145px;
+    }
+
+    .Portempa-menu{
+        width: 126px;
+        height: 145px;
+    }
+
+    .fila-3d{
+        text-align: center;
+        gap: 2px;
+    }
+
+    .Portmac-menu{
+        width: 189px;
+    }
+
+    .fila-2d{
+        gap: 8px;
+    }
+
+    .PortNubu-menu{
+        width: 124px;
+        height: 144px;
+    }
+
+    .fila-4d{
+        gap: 7px;
+    }
+
+    .niv-ul{
+        gap: 50px;
+    }
+
+    
+    
