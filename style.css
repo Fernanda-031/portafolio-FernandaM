@@ -24,133 +24,154 @@
 
   h1.titulos{
     font-family: var(--font-titulos);
-    font-size: 128px;
+    font-size: 8rem;
     font-weight: 800;
     color: var(--color-blanco);
   }
 
+  h1.titulos-2{
+    font-family: var(--font-titulos);
+    font-size: 8rem;
+    font-weight: 800;
+    color: var(--color-naranja);
+  }
+
   h1.ti-contacto{
     font-family: var(--font-cuerpo);
-    font-size: 50px;
+    font-size: 3.1rem;
     font-weight: 800;
     color: var(--color-negro);
   }
 
   h2.ED{
     font-family: var(--font-cuerpo);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 500;
     color: var(--color-blanco);
   }
 
   h1.SN{
     font-family: var(--font-titulos);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-naranja);
   }
 
   h1.sub-contacto{
     font-family: var(--font-titulos);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-negro);
   }
 
   h2.IC{
     font-family: var(--font-cuerpo);
-    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-negro);
+  }
+
+  li.IC{
+    font-family: var(--font-cuerpo);
+    font-size: 1rem;
     font-weight: 500;
     color: var(--color-negro);
   }
 
   a.t-home{
     font-family: var(--font-cuerpo);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 800;
     color: var(--color-naranja);
   }
 
   a.IC{
     font-family: var(--font-cuerpo);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--color-blanco);
   }
 
   a.tx-nav{
     font-family: var(--font-cuerpo);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--color-naranja);
   }
 
   h2.Proyectos{
     font-family: var(--font-cuerpo);
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
     color: var(--color-blanco);
   }
 
   h1.NombreP{
     font-family: var(--font-titulos);
-    font-size: 70px;
+    font-size: 4.3rem;
     font-weight: 600;
     color: var(--color-rosa);
   }
 
   h1.SNe{
     font-family: var(--font-titulos);
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 600;
     color: var(--color-negro);
   }
 
   p.SNe{
     font-family: var(--font-titulos);
-    font-size: 36px;
+    font-size: 2.2rem;
     font-weight: 800;
     color: var(--color-blanco);
   }
 
+  p.SNee{
+    font-family: var(--font-titulos);
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--color-negro);
+  }
+
   p.Menut{
     font-family: var(--font-cuerpo);
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 800;
     color: var(--color-negro);
   }
 
   p.fech{
     font-family: var(--font-cuerpo);
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 800;
     color: var(--color-blanco);
   }
 
   p.MenuF{
     font-family: var(--font-cuerpo);
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 500;
     color: var(--color-negro);
   }
 
   p.txx{
     font-family: var(--font-cuerpo);
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 500;
     color: var(--color-blanco);
   }
 
   p.TX{
     font-family: var(--font-cuerpo);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     color: var(--color-negro);
   }
 
   li.TX{
     font-family: var(--font-cuerpo);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     color: var(--color-negro);
   }
@@ -172,17 +193,18 @@
   .lo-nom{
     display: flex;
     align-items: center;
-    gap: 14px;
+    margin-left: 1.25rem;
+    gap: 0.87rem;
    }
 
    /* Inicio */
   .por-es{             
     display: flex;
     flex-direction: column;
-    gap: 1px;   
+    gap: 0.06rem;   
     z-index: auto;
-    top: 300px;
-    left:450px; 
+    top: 18.75rem;
+    left: 28.12rem; 
     position: absolute;
   }
 
@@ -193,27 +215,27 @@
   .estudiante-D{
     display: flex;
     justify-content: space-evenly;
-    gap: 200px;
+    gap: 12.5rem;
   }
 
   /* software y maquinas */
    .soft{                            
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    gap: 2.81rem;
    }
 
    .maq{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
    }
 
    .soft-maq{
     display: flex;
     flex-direction: column;
-    margin-top: 33px;
-    gap: 45px;
+    margin-top: 2.06rem;
+    gap: 2.81rem;
    }
 
   /* sobre mi, maquinas y software */
@@ -222,44 +244,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 76px;
-    margin-left: 150px;
-    gap: 32px;
+    margin-top: 4.75rem;
+    margin-left: 9.37rem;
+    gap: 2rem;
   }
 
   .im-ubitx{
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-    gap: 10px;
+    gap: 0.62rem;
   }
 
   .ubi-esp{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .im-fortx{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start ;
-    gap: 10px;
+    gap: 0.62rem;
   }
 
   .ubi-for{
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 1.37rem;
   }
 
   .huf-a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 310px;
-    margin-top: 33px;
-    gap: 71px;
+    margin-left: 19.37rem;
+    margin-top: 2.06rem;
+    gap: 4.43rem;
     width: 100%;
   }
 
@@ -268,15 +290,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:300px;
+    gap: 18.75rem;
     z-index: auto;
-    top: 470px;
-    left:300px; 
+    top: 29.37rem;
+    left: 18.3rem; 
     position: absolute;
   }
 
   .espa-contacto{
-    margin-top: 50px;
+    margin-top: 3.12rem;
   }
   
 
@@ -290,41 +312,41 @@
   .fila-3d{                   /*nivel 2*/
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
     width: 100%;   
   }
              
   .fila-2d{                   /*nivel 3*/
     display: flex;
     justify-content: center;
-    gap: 21px;
+    gap: 1.31rem;
     width: 100%;   
   }
 
   .fila-4d{                   /*nivel 4*/
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
     width: 100%;   
   }
 
   .niv-ul{                           /*separacion patron y ultimo elemento*/
     display: flex;
     flex-direction: column;
-    gap:151px;
+    gap: 9.43rem;
   }
 
   .titulo-pri{                           /*separacion titulo y primer elemento*/
     display: flex;
     flex-direction: column;
-    gap: 74px;
+    gap: 4.62rem;
   }
 
   .fle-tx{                          /*Portada de proyectos*/
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-    gap: 10px;
+    gap: 0.62rem;
   }
 
   .portada-lb{
@@ -337,15 +359,15 @@
     flex-direction: column;
     gap: 1px;   
     z-index: auto;
-    top: 200px;
-    left:50px; 
+    top: 12.5rem;
+    left: 3.12rem; 
     position: absolute;
   }
 
   .portd-ele{
     display: flex;
     flex-direction: column;
-    gap: 70px;   
+    gap: 4.37rem;   
   }
   
   /*lenguaje basico*/
@@ -354,19 +376,19 @@
     justify-content: center;
     flex-direction: column; 
     align-items: center;
-    margin-top: 76px;
+    margin-top: 4.75rem;
   }
 
   .nivel-2{
     display: flex;
     justify-content: center;
-    gap: 22px;
+    gap: 1.5rem;
   }
 
   .imagenes2{                   
     display: flex;
     justify-content: center;
-    gap: 21px;
+    gap: 1.31rem;
     width: 100%;   
   }
 
@@ -376,8 +398,8 @@
     flex-direction: column;
     gap: 1px;   
     z-index: auto;
-    top: 420px;
-    left: 220px; 
+    top: 26.25rem;
+    left: 13.75rem; 
     position: absolute;
   }
 
@@ -388,8 +410,8 @@
     flex-direction: column;
     gap: 1px;   
     z-index: auto;
-    top: 420px;
-    left: 410px; 
+    top: 26.25rem;
+    left: 28.75rem; 
     position: absolute;
   }         
 
@@ -397,22 +419,22 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 76px;
-    gap: 22px;
+    margin-top: 4.75rem;
+    gap: 1.37rem;
   }          
 
   .tx-concep{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 50px;
+    gap: 3.12rem;
   }
 
   .tx-aficion{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 30px;
+    gap: 1.87rem;
   }
 
   /*emocionario*/
@@ -422,29 +444,27 @@
     flex-direction: column;
     gap: 1px;   
     z-index: auto;
-    top: 350px;
-    left: 100px; 
+    top: 21.87rem;
+    left: 6.25rem; 
     position: absolute;
   }  
 
   .esp-inicio{
-    margin-top: 76px;
+    margin-top: 4.75rem;
   }
 
   .carrusel-tx{
     display: flex;
     justify-content: center;
     align-items: start;
-    margin-top: 33px;
-    gap: 32px;
+    margin-top: 2.06rem;
+    gap: 2rem;
   }
 
   .tx-act{
-    margin-left: 310px;
+    margin-left: 19.37rem;
   }
 
- 
-  
   /*empaque de donas*/
 
   .tx-portadainfoEm{
@@ -452,8 +472,8 @@
     flex-direction: column;
     gap: 1px;   
     z-index: auto;
-    top: 380px;
-    left: 200px; 
+    top: 23.75rem;
+    left: 13.75rem; 
     position: absolute;
   }  
 
@@ -461,16 +481,16 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 76px;
-    gap: 33px;
+    margin-top: 4.75rem;
+    gap: 2.06rem;
   }
 
   .centro-co{ 
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 33px;
-    gap: 33px;
+    margin-top: 2.06rem;
+    gap: 2.06rem;
   }
 
   .im2-cenem{ 
@@ -478,7 +498,7 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    gap: 18px;
+    gap: 1.12rem;
   }
 
   .im3-cenem{ 
@@ -486,7 +506,7 @@
     justify-content: center;
     flex-direction: row;
     align-items: flex-end;
-    gap: 18px;
+    gap: 1.12rem;
   }
 
   .im2-res{ 
@@ -494,7 +514,7 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    gap: 23px;
+    gap: 1.43rem;
   }
 
   /*macetas*/
@@ -504,8 +524,8 @@
     flex-direction: column;
     gap: 1px;   
     z-index: auto;
-    top: 340px;
-    left: 120px; 
+    top: 21.25rem;
+    left: 7.5rem; 
     position: absolute;
   }
   .mac-centro2im{                     
@@ -513,8 +533,8 @@
     justify-content: center;
     flex-direction: row;
     align-items: end;
-    margin-top: 76px;
-    gap: 20px;
+    margin-top: 4.75rem;
+    gap: 1.25rem;
   }        
 
   .mac-res2im{                     
@@ -522,42 +542,42 @@
     justify-content: center;
     flex-direction: row;
     align-items: end;
-    gap: 20px;
+    gap: 1.25rem;
   }  
 
   .mac-centro3im{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
   }
   
   .mac-2imtx{                     
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .mac-proceso3im{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 17px;
+    gap: 1.06rem;
   }
 
   .proceso-sepa{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 29px;
+    gap: 1.81rem;
   }
 
   .resultado-sep{ 
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 33px;
+    gap: 2.06rem;
   }
 
   /*botella*/
@@ -567,29 +587,29 @@
     flex-direction: column;
     gap: 1px;   
     z-index: auto;
-    top: 420px;
-    left: 220px; 
+    top: 26.25rem;
+    left: 13.75rem; 
     position: absolute;
   }
 
   .Cent-im{
     display: flex;
     justify-content: center;
-    margin-top: 76px;
-    gap: 20px;
+    margin-top: 4.75rem;
+    gap: 1.25rem;
   }
 
   .alinear_base{                      
     display: flex;
     justify-content: center;
     align-items: start;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .bote-2im{                                
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 2.5rem;
   }
 
   /*Nubu*/
@@ -598,23 +618,23 @@
     flex-direction: column;
     gap: 1px;   
     z-index: auto;
-    top: 350px;
-    left: 100px; 
+    top: 21.87rem;
+    left: 6.25rem; 
     position: absolute;
   }
 
   .nubu-4im{                         
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .planosN{
       display: flex;
       justify-content: center;
       flex-direction: column;
-      margin-top: 76px;
-      gap: 33px;
+      margin-top: 4.75rem;
+      gap: 2.06rem;
   }
   
   .nubu-2im{
@@ -622,7 +642,7 @@
     justify-content: center;
     flex-direction: row;
     align-items: end;
-    gap: 18px;
+    gap: 1.12rem;
   }
 
   /*prenda ciclista*/
@@ -631,8 +651,8 @@
     flex-direction: column;
     gap: 1px;   
     z-index: auto;
-    top: 330px;
-    left: 100px; 
+    top: 20.62rem;
+    left: 6.25rem; 
     position: absolute;
   }
 
@@ -641,103 +661,82 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .prenda-esp{ 
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 33px;
-    gap: 33px;
+    margin-top: 2.06rem;
+    gap: 2.06rem;
   }
 
   /*juguete*/
+
+  .tx-portadainfJu{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;   
+    z-index: auto;
+    top: 20.6rem;
+    left: 8.12rem; 
+    position: absolute;
+  }
 
   .juguete-2im{                   
     display: flex;
     justify-content: center;
     align-items: end;
-    margin-top: 76px;
-    gap: 20px;
+    margin-top: 4.75rem;
+    gap: 1.25rem;
   }
 
   .modelado-2im{                  
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .explosivos-2im{
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 0.75rem;
   }
   
   .dummy-2im{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 2.5rem;
   }
 
   .proceso-4im{
     display: flex;
     justify-content: center;
     direction: row;
-    gap: 25px;
+    gap: 1.56rem;
   }
 
   .espaciado-jg{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 33px;
+    gap: 2.06rem;
 }
-
-
-
-
-  
-
-
-
-   .al-s{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-    gap: 10px;
-   }
-
-   .g-contenedor{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-   }
-
-   .C1{
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    gap: 300px;
-   }
   
    /* Centar*/
   .Cent{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .Cent-Esp{
     display: flex;
     justify-content: center; 
-    gap: 20px; 
+    gap: 1.25rem; 
     width: 100%;
   }
   
@@ -747,12 +746,12 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 33px;
+    gap: 2.06rem;
   }  
 
   .Boton button {
     font-family: var(--font-cuerpo);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     background-color: var(--color-rosa-claro); 
     color: var(--color-negro); 
@@ -764,13 +763,13 @@
     border-color: #DE543F; 
   }
 
-  .patronfinal{
-    width: 100%;
-  }
-
   .pat-ini{
     width: 100%;
-    margin-top: 33px;
+    margin-top: 2.06rem;
+  }
+
+  .Pa-cont{
+    width: 100%;
   }
 
 
