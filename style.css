@@ -92,11 +92,11 @@
     color: var(--color-blanco);
   }
 
-  a.tx-nav{
+  a.ICC{
     font-family: var(--font-cuerpo);
     font-size: 1rem;
     font-weight: 500;
-    color: var(--color-naranja);
+    color: var(--color-negro);
   }
 
   h2.Proyectos{
@@ -201,15 +201,9 @@
   .por-es{             
     display: flex;
     flex-direction: column;
-    gap: 0.06rem;   
-    z-index: auto;
-    top: 18.75rem;
-    left: 28.12rem; 
-    position: absolute;
-  }
-
-  .fondo-patron{
-    z-index: -1;
+    background-image: url(./src/imagenes/Patron1.svg);
+    min-height: 50vh;
+    justify-content: center;
   }
 
   .estudiante-D{
@@ -289,12 +283,10 @@
   .tx-conctactoim{
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: center;
+    margin-top: 3rem;
     gap: 18.75rem;
-    z-index: auto;
-    top: 29.37rem;
-    left: 18.3rem; 
-    position: absolute;
   }
 
   .espa-contacto{
