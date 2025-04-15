@@ -1,11 +1,17 @@
 @media only screen and (max-width: 600px) {
 
+  /* Inicio*/
+    /*elementos*/
+    .foto-perfil{
+      margin-left: 0rem;
+    }
+
   /*menu proyectos*/
     /*tipografias*/
       h1.titulos-2{
         font-size: 3.12rem;
       }
-      p.Snee{
+      p.SNee{
         font-size: 0.68rem;
       }
       p.Menut{
@@ -19,8 +25,12 @@
       .logom{
         width: 2rem;
       }
+      .titulo-pri{
+        gap: 0.93rem;
+      }
       .PortLB-menu{
         width: 22.81rem;
+        height: 8.56rem; 
       }
       .Portrre-menu{
         width: 7.37rem;
@@ -56,13 +66,19 @@
       }
   /*Lenguaje basico*/
     /*tipografias*/
-      .Proyectos{
+      h2.Proyectos{
         font-size: 0.75rem;
       }
-      .NombreP{
+      h1.NombreP{
         font-size: 1.31rem;
       }
-      .tx{
+      p.fech{
+        font-size: 0.68rem;
+      }
+      p.txx{
+        font-size: 0.68rem;
+      }
+      p.SNe{
         font-size: 0.68rem;
       }
     /*elementos*/
