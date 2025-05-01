@@ -1,112 +1,271 @@
-@media only screen and (max-width: 600px) {
-
-  /* Inicio*/
-    /*elementos*/
-    .foto-perfil{
-      margin-left: 0rem;
-    }
-
-  /*menu proyectos*/
-    /*tipografias*/
-      h1.titulos-2{
-        font-size: 3.12rem;
-      }
-      p.SNee{
-        font-size: 0.68rem;
-      }
-      p.Menut{
-        font-size: 0.93rem;
-      }
-      p.MenuF{
-        font-size: 0.68rem;
-      }
-
-    /*elementos*/
-      .logom{
-        width: 2rem;
-      }
-      .titulo-pri{
-        gap: 0.93rem;
-      }
-      .PortLB-menu{
-        width: 22.81rem;
-        height: 8.56rem; 
-      }
-      .Portrre-menu{
-        width: 7.37rem;
-        height: 8.5rem;
-      }
-      .Portdimo-menu{
-        width: 7.37rem;
-        height: 8.5rem;
-      }
-      .Portempa-menu{
-        width: 7.37rem;
-        height: 8.5rem;
-      }
-      .fila-3d{
-        gap: 0.31rem;
-      }
-      .Portmac-menu{
-        width: 11.25rem;
-        height: 8.5rem;
-      }
-      .fila-2d{
-        gap: 0.31rem;
-      }
-      .PortNubu-menu{
-        width: 7.37rem;
-        height: 8.5rem;
-      }
-      .fila-4d{
-        gap: 0.31rem;
-      }
-      .niv-ul{
-        gap: 2.06rem;
-      }
-  /*Lenguaje basico*/
-    /*tipografias*/
-      h2.Proyectos{
-        font-size: 0.75rem;
-      }
-      h1.NombreP{
-        font-size: 1.31rem;
-      }
-      p.fech{
-        font-size: 0.68rem;
-      }
-      p.txx{
-        font-size: 0.68rem;
-      }
-      p.SNe{
-        font-size: 0.68rem;
-      }
-    /*elementos*/
-      .flechab{
-        width: 0.38rem;
-      }
-      .ej1lb{
-        width: 22.12rem;
-      }
-      .ej2lb{
-        width: 10.94rem;
-      }
-      .ej3lb{
-        width: 10.92rem;
-      }
-      .nivel-2{
-        gap: 0.31rem;
-      }
-      .ej4lb{
-        width: 22.12rem;
-      }
-      
-
-
-
-
-
+@media screen and (max-width: 768px) {
+  
+  /* Navegacion */
+  .logom{
+    width: 2rem;
+    height: auto;
   }
+
+  p.SNee{
+    font-size: 1.5rem;   
+  }
+
+  p.SNe {
+    font-size: 1.5rem;
+  }
+
+  .lo-nom {
+    margin-left: 0.5rem;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  a.ICC{
+    font-size: 0.8rem;
+  }
+
+  a.IC {
+    font-size: 0.8rem;
+  }
+
+  a.t-home{
+    font-size: 0.8rem;
+  }
+
+  .CasaNar{
+    width: 1.25rem;
+  }
+
+  .casa-nav{
+    width: 1.25rem;
+  }
+
+  /* Inicio */
+  h1.titulos{
+    font-size: 5rem;  
+  }
+
+  h2.ED{
+    font-size: 1.25rem;
+  }
+
+  .por-es {
+    background-size: cover;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .Cent {
+    text-align: center;
+  }
+
+  /* Sobre mí */
+  .foto-perfil {
+    flex-direction: column;
+    margin: 2rem 1rem;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .foto-perfil img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* Habilidades + Ubicación + Formación */
+  .huf-a {
+    flex-direction: column;
+    margin: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .ubi-for {
+    width: 100%;
+  }
+
+  .ubi-esp{
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+  }
+
+  .im-fortx, .im-ubitx {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .ubi-esp p, .im-fortx p, .im-ubitx p {
+    margin: 0;
+  }
+
+  /* Software y Máquinas */
+  .soft-maq {
+    margin: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .Cent-Esp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .Cent-Esp img {
+    width: 80px;
+    height: auto;
+  }
+
+  .maq ul {
+    padding-left: 1.2rem;
+  }
+
+  /* Patrón final */
+  .pat-ini img {
+    width: 100%;
+    height: auto;
+  }
+
+  /*menú de proyectos */
+  h1.titulos-2{
+    font-size: 3rem;
+  }
+
+  .titulo-pri {
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .fila-3d,.fila-2d,.fila-4d {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  .niv-ul {
+    gap: 1rem;
+  }
+
+  p.Menut {
+    font-size: 1.3rem;    
+  }
+
+  p.MenuF {
+    font-size: 1rem;
+  }
+  
+    /* Ajuste de imágenes*/
+  .PortLB-menu, .Portrre-menu, .Portdimo-menu, .Portempa-menu, .Portmac-menu, .PortNubu-menu {
+    width: 90%;
+    height: auto;
+    max-width: 18.75rem;
+  }
+  
+  .Menut, .MenuF {
+    text-align: center;
+  }
+  
+  .centro-tipo {
+    text-align: center;
+  }
+  
+  .Pa-cont {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Portada de lb */
+  .portada-lb{
+    background-position: center;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .flechab{
+    width: 0.6rem;
+  }
+
+  .fle-tx {
+    align-items: start;
+    gap: 0rem;
+}
+
+  h2.Proyectos {
+    font-size: 1.1rem;
+  }
+
+  h1.NombreP {
+    font-size: 1.7rem;
+  }
+
+  p.fech, p.txx {
+    font-size: 1rem;
+  }
+
+  .tx-portadalb {
+    margin-left: 0;
+    margin-top: 1rem;
+    padding: 0 1rem;
+  }
+
+  .fle-tx {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .NombreP {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-right: 1rem;
+  }
+
+  .Cent .col-10 {
+    width: 100% !important;
+    padding: 0 1rem;
+  }
+
+  .txx {
+    text-align: left;
+  }
+
+  .ret-4 img, .ej4lb, .imagenes2 img,.nivel-2 img {
+    width: 90%;
+    height: auto; 
+    max-width: 400px;
+  }
+
+  .nivel-2, .imagenes2 {
+    flex-direction: column;
+    align-items: center;
+  
+    padding: 0 1rem;
+  }
+
+  /* Texto debajo de imágenes */
+  .TX {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  /* Botón */
+  .Boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+
+  /* Patrón decorativo */
+  .Pa-cont {
+    width: 100%;
+    height: auto;
+  }
+
+
+}
 
   
 
