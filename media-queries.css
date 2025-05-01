@@ -175,7 +175,7 @@
     height: auto;
   }
 
-  /* Portada de lb */
+  /* Lenguaje basico 1 */
   .portada-lb{
     background-position: center;
     height: auto;
@@ -263,6 +263,185 @@
     width: 100%;
     height: auto;
   }
+
+  .portada-RF {
+    height: auto;
+    background-position: center;
+    padding: 3rem 2rem;
+  }
+
+  /* Recorrido fotografico 2 */
+  .portada-RF {
+    height: auto;
+    background-position: center;
+    padding: 3rem 2rem;
+  }
+
+  .tx-portadainfoRF {
+    margin-left: 0;
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+
+  .fle-tx {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .NombreP {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .Cent, .text-center, .text-left {
+    padding: 0 2rem;
+    text-align: left !important;
+  }
+
+  .tx-retrato, .tx-concep, .tx-aficion {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  .tx-retrato div, .tx-concep div, .tx-aficion div {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+
+  .tx-retrato img, .tx-concep img, .tx-aficion img, .Cent img {
+    width: 100%;
+    height: auto;
+  }
+
+  .TX {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .centro-co {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  /* Emocionario 3 */
+
+  /* Empaque de donas 4 */
+  .portada-EmD {
+    height: auto;
+    background-position: center;
+    padding: 3rem 2rem;
+  }
+
+  .tx-portadainfoEm {
+    margin-left: 0;
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+
+  .NombreP {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .DonasP{
+    width: 100%;
+    height: auto;
+  }
+
+  .Cent, 
+  .text-center, 
+  .text-left {
+    padding: 0 2rem;
+    text-align: left !important;
+  }
+
+  .centro-2im,
+  .im2-cenem,
+  .im3-cenem,
+  .im2-res {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+  }
+
+  .im2-cenem {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    gap: 2.3rem;
+    padding: 1rem 2rem;
+  }
+
+  .centro-2im div,
+  .im2-cenem div,
+  .im3-cenem div,
+  .im2-res img {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+
+  .centro-2im img,
+  .im2-cenem img,
+  .im3-cenem img,
+  .im2-res img {
+    width: 100%;
+    height: auto;
+  }
+
+  .TX {
+    font-size: 1rem;
+    padding-top: 0.4rem;
+    text-align: left;
+  }
+
+  .centro-co {
+    padding: 0 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .centro-co img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+  }
+
+  /* Macetas 5 */
+  .mac-centro2im,
+  .mac-res2im,
+  .mac-centro3im,
+  .mac-2imtx,
+  .mac-proceso3im,
+  .proceso-sepa {
+    gap: 1rem;
+  }
+
+  .tx-portadainfoMac h1,
+  .tx-portadainfoMac h2,
+  .TX,
+  .fech,
+  .txx {
+    text-align: center;
+  }
+
+  .resultado-sep {
+    gap: 1.5rem;
+  }
+
+  .mac-res2im span,
+  .mac-res2im div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mac-res2im h1 {
+    text-align: center;
+  }
+  
 
 
 }
