@@ -320,11 +320,6 @@
     text-align: left;
   }
 
-  .centro-co {
-    margin-top: 3rem;
-    text-align: center;
-  }
-
   /* Emocionario 3 */
 
   /* Empaque de donas 4 */
@@ -395,18 +390,6 @@
     font-size: 1rem;
     padding-top: 0.4rem;
     text-align: left;
-  }
-
-  .centro-co {
-    padding: 0 2rem;
-    text-align: center;
-    align-items: center;
-  }
-
-  .centro-co img {
-    width: 100%;
-    height: auto;
-    max-width: 500px;
   }
 
   /* Macetas 5 */
