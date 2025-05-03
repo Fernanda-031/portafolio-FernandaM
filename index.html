@@ -38,27 +38,26 @@
 
   <body style="background-color:#F9B8B0;">
 
-    <nav class="navbar navbar-expand-lg" style="background-color:#F9B8B0;">
+    <nav class="navbar navbar-expand-lg" style="background-color: #F9B8B0; top: 0; position: sticky;">
       <div class="container-fluid">
-      
-        <div class="lo-nom">
-          <img width="50" class="logom" aria-hidden="true" src="./src/imagenes/Iconos/Logo.svg"/>
-          <p class="SNee">fernanda muciño</p>
+        
+        <div class="d-flex align-items-center">
+          <img width="50" class="logom" src="./src/imagenes/Iconos/Logo.svg" />
+          <p class="SNee mb-0 ms-2">fernanda muciño</p>
         </div>
     
-      
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- Botón hamburguesa -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <img class="CasaNar" width="28" aria-hidden="true" src="./src/imagenes/Iconos/CasaNaranja.svg"/>
+    
+        <!-- Menú colapsable -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav text-end">
             <li class="nav-item">
               <a class="nav-link t-home" href="index.html">Home</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link ICC" href="#sobremi">Sobre mi</a>
             </li>
@@ -70,8 +69,10 @@
             </li>
           </ul>
         </div>
+    
       </div>
     </nav>
+    
 
     <!-- Inicio pag. principal  -->
     <section>
@@ -102,7 +103,7 @@
     <section>
       <div class="Cent">
         <div class="huf-a">
-          <div class="ubi-esp">
+          <div class="ubi-esp" style="text-align: left;">
             <h1 class="SN">Habilidades</h1>
             <ul>
               <li class="TX">Gestión del tiempo</li>

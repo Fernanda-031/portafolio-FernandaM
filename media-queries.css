@@ -65,6 +65,7 @@
     margin: 2rem 1rem;
     gap: 1.5rem;
     align-items: center;
+    width: 100%;
   }
 
   .foto-perfil img {
@@ -83,10 +84,12 @@
     width: 100%;
   }
 
-  .ubi-esp{
-    flex-direction: column;
-    gap: 0.5rem;
+  p.TX {
     text-align: left;
+  }
+
+  .ubi-esp{
+    text-align: left !important;
   }
 
   .im-fortx, .im-ubitx {
@@ -189,7 +192,7 @@
   .fle-tx {
     align-items: start;
     gap: 0rem;
-}
+  }
 
   h2.Proyectos {
     font-size: 1.1rem;
@@ -308,11 +311,6 @@
   .tx-retrato div, .tx-concep div, .tx-aficion div {
     flex: 1 1 45%;
     max-width: 45%;
-  }
-
-  .tx-retrato img, .tx-concep img, .tx-aficion img, .Cent img {
-    width: 100%;
-    height: auto;
   }
 
   .TX {

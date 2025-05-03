@@ -182,11 +182,7 @@
     display: flex;
   }
 
-  .navbar-expand-lg .navbar-collapse { 
-    display: flex;
-    flex-basis: auto;
-    justify-content: flex-end;
-  }
+  
 
   .lo-nom{
     display: flex;
@@ -209,6 +205,7 @@
     background-image: url(./src/imagenes/Patron1.svg);
     min-height: 50vh;
     justify-content: center;
+    z-index: auto;
   }
 
   .estudiante-D{
@@ -243,8 +240,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4.75rem;
-    padding: 1rem 2rem;
+    padding: 6rem 5rem;
     gap: 2rem;
   }
 
@@ -279,7 +275,6 @@
     flex-direction: row;
     justify-content: center;
     margin-left: 19.37rem;
-    margin-top: 2.06rem;
     gap: 4.43rem;
     width: 100%;
   }
@@ -337,6 +332,7 @@
     display: flex;
     flex-direction: column;
     gap: 4.62rem;
+    margin-top: 5rem;
   }
 
   .fle-tx{                          /*Portada de lb*/
