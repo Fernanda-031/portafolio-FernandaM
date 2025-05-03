@@ -1,6 +1,29 @@
 @media screen and (max-width: 768px) {
   
   /* Navegacion */
+  
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+  }
+
+  .navbar-nav img.casa-nav {
+    margin-bottom: 1rem;
+    align-self: flex-end;
+  }
+
+  .navbar-collapse {
+    background-color: #FFE3E1;
+    padding: 1rem;
+  }
+
+  .lo-nom {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
   .logom{
     width: 2rem;
     height: auto;
@@ -57,12 +80,12 @@
 
   .Cent {
     text-align: center;
+    margin: 0rem 2rem;
   }
 
   /* Sobre mí */
   .foto-perfil {
     flex-direction: column;
-    margin: 2rem 1rem;
     gap: 1.5rem;
     align-items: center;
     width: 100%;
@@ -131,51 +154,67 @@
   }
 
   /*menú de proyectos */
-  h1.titulos-2{
-    font-size: 3rem;
+  /* Alinear las filas verticalmente y al centro */
+  .fila-3d,
+  .fila-2d,
+  .fila-4d {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .niv-ul {
+    gap: 6rem;
+    align-items: center;
+  }
+
+  /* Menú de navegación */
+  .IC {
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    width: 100%;
   }
 
   .titulo-pri {
-    gap: 2rem;
-    padding: 1rem;
-  }
-  
-  .fila-3d,.fila-2d,.fila-4d {
-    flex-direction: column;
-    align-items: center;
     padding: 0 1rem;
-  }
-  
-  .niv-ul {
-    gap: 1rem;
+    text-align: center;
   }
 
-  p.Menut {
-    font-size: 1.3rem;    
+  h1.titulos-2{
+    font-size: 5rem;
   }
 
-  p.MenuF {
-    font-size: 1rem;
-  }
-  
-    /* Ajuste de imágenes*/
-  .PortLB-menu, .Portrre-menu, .Portdimo-menu, .Portempa-menu, .Portmac-menu, .PortNubu-menu {
+  /* Imágenes de proyecto */
+  .PortLB-menu,
+  .Portrre-menu,
+  .Portdimo-menu,
+  .Portempa-menu,
+  .Portmac-menu,
+  .PortNubu-menu {
     width: 90%;
+    max-width: 400px;
     height: auto;
-    max-width: 18.75rem;
+    display: block;
+    margin: 0 auto;
   }
-  
-  .Menut, .MenuF {
+
+  /* Textos */
+  .Menut,
+  .MenuF {
+    font-size: 1rem;
     text-align: center;
+    margin-bottom: 0.25rem;
   }
-  
-  .centro-tipo {
-    text-align: center;
-  }
-  
+
   .Pa-cont {
     width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
   }
 
   /* Lenguaje basico 1 */
@@ -218,38 +257,42 @@
     gap: 0.5rem;
   }
 
+  .text-center {
+    text-align: center !important; /* fuerza el centrado */
+  }
+
   .NombreP {
     font-size: 1.5rem;
     text-align: left;
     padding-right: 1rem;
   }
 
-  .Cent .col-10 {
-    width: 100% !important;
-    padding: 0 1rem;
+  /* TEXTO DESCRIPTIVO */
+  .Cent .text-center {
+    padding: 1rem;
+    font-size: 1rem;
   }
 
-  .txx {
-    text-align: left;
+  .ret-4 img,
+  .ej4lb,
+  .text-center img {
+    max-width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
   }
 
-  .ret-4 img, .ej4lb, .imagenes2 img,.nivel-2 img {
-    width: 90%;
-    height: auto; 
-    max-width: 400px;
-  }
-
-  .nivel-2, .imagenes2 {
+  .nivel-2,
+  .imagenes2 {
     flex-direction: column;
     align-items: center;
-  
-    padding: 0 1rem;
+    gap: 1rem;
   }
 
-  /* Texto debajo de imágenes */
-  .TX {
-    text-align: center;
-    padding: 0 1rem;
+  .nivel-2 img,
+  .imagenes2 img {
+    max-width: 90%;
+    height: auto;
   }
 
   /* Botón */
@@ -267,58 +310,61 @@
     height: auto;
   }
 
-  .portada-RF {
-    height: auto;
-    background-position: center;
-    padding: 3rem 2rem;
-  }
-
   /* Recorrido fotografico 2 */
-  .portada-RF {
-    height: auto;
-    background-position: center;
-    padding: 3rem 2rem;
-  }
+    .portada-RF {
+      height: auto;
+      background-position: center;
+      padding: 2rem 1rem;
+    }
+  
+    .tx-portadainfoRF {
+      margin: 1rem;
+      align-items: flex-start;
+    }
+  
+    .tx-retrato, .tx-concep, .tx-aficion {
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+  
+    .Boton {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
 
-  .tx-portadainfoRF {
-    margin-left: 0;
-    margin-top: 2rem;
-    padding: 0 1rem;
-  }
-
-  .fle-tx {
-    flex-direction: row;
-    gap: 1rem;
-  }
-
-  .NombreP {
-    font-size: 2rem;
-    margin-top: 0.5rem;
-  }
-
-  .Cent, .text-center, .text-left {
-    padding: 0 2rem;
-    text-align: left !important;
-  }
-
-  .tx-retrato, .tx-concep, .tx-aficion {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    padding: 1rem 2rem;
-  }
-
-  .tx-retrato div, .tx-concep div, .tx-aficion div {
-    flex: 1 1 45%;
-    max-width: 45%;
-  }
-
-  .TX {
-    font-size: 1rem;
-    text-align: left;
-  }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  
+    .tx-retrato div, .tx-concep div, .tx-aficion div {
+      width: 100%;
+      padding: 0 1rem;
+      box-sizing: border-box;
+    }
+  
+    body {
+      overflow-x: hidden;
+    }
 
   /* Emocionario 3 */
+  .carrusel-tx{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proceso-4im {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .LiDi{
+    width: 33.5rem;
+  }
 
   /* Empaque de donas 4 */
   .portada-EmD {
@@ -333,6 +379,10 @@
     padding: 0 1rem;
   }
 
+  .margen{
+    padding: 1rem 2rem;
+  }
+
   .NombreP {
     font-size: 2rem;
     margin-top: 0.5rem;
@@ -341,13 +391,6 @@
   .DonasP{
     width: 100%;
     height: auto;
-  }
-
-  .Cent, 
-  .text-center, 
-  .text-left {
-    padding: 0 2rem;
-    text-align: left !important;
   }
 
   .centro-2im,
@@ -391,38 +434,119 @@
   }
 
   /* Macetas 5 */
-  .mac-centro2im,
-  .mac-res2im,
-  .mac-centro3im,
-  .mac-2imtx,
-  .mac-proceso3im,
-  .proceso-sepa {
-    gap: 1rem;
+  .portada-Mac {
+    height: auto;
+    background-position: center;
+    padding: 2rem 1rem;
   }
 
-  .tx-portadainfoMac h1,
-  .tx-portadainfoMac h2,
-  .TX,
-  .fech,
-  .txx {
-    text-align: center;
+  .tx-portadainfoMac {
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+
+  .mac-centro2im, .mac-res2im, .mac-centro3im, .mac-2imtx, .mac-proceso3im, .proceso-sepa {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
   }
 
   .resultado-sep {
-    gap: 1.5rem;
+    padding: 0 1rem;
   }
 
-  .mac-res2im span,
-  .mac-res2im div {
-    display: flex;
+  .txx, .TX {
+    font-size: 1rem;
+  }
+
+  /*Botella*/
+  .portada-Bot {
+    height: auto;
+    background-position: center;
+    padding: 2rem 1rem;
+  }
+
+  .tx-portadainfoBot {
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+
+  .alinear_base,
+  .bote-2im,
+  .Cent-im {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+
+  .Carpubl{
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+
+  /*Nubu*/
+  .portada-Nubu {
+    height: auto;
+    background-position: center;
+    padding: 2rem 1rem;
+  }
+
+  .tx-portadainfNubu {
+    margin: 1rem;
+    align-items: flex-start;
+  }
+
+  .nubu-2im{
+    flex-direction: column;
+    padding: 0rem 2rem;
+    align-items: center;
+  }
+
+  .ocul{
+    display: none;
+  }
+
+  /*Prenda*/
+  .portada-PC {
+    height: auto;
+    background-position: center;
+    padding: 2rem 1rem;
+  }
+
+  .tx-portadainfPC {
+    margin: 1rem;
+    align-items: flex-start;
+  }
+
+  .prenda-3im{
     flex-direction: column;
     align-items: center;
   }
 
-  .mac-res2im h1 {
-    text-align: center;
+  /*Juguete*/
+  .portada-Ju {
+    height: auto;
+    background-position: center;
+    padding: 2rem 1rem;
   }
-  
+
+  .tx-portadainfJu {
+    margin: 1rem;
+    align-items: flex-start;
+  }
+
+  .juguete-2im, .modelado-2im, .dummy-2im{
+    flex-direction: column;
+  }
+
+  /*Contacto*/
+  .tx-conctactoim {
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+
 
 
 }

@@ -182,8 +182,6 @@
     display: flex;
   }
 
-  
-
   .lo-nom{
     display: flex;
     align-items: center;
@@ -192,10 +190,7 @@
    }
 
    .na-b{
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    position: sticky;
-    top: 0;
+    justify-content: flex-end;
    }
 
    /* Inicio */
@@ -332,7 +327,6 @@
     display: flex;
     flex-direction: column;
     gap: 4.62rem;
-    margin-top: 5rem;
   }
 
   .fle-tx{                          /*Portada de lb*/
@@ -501,6 +495,10 @@
     margin-left: 2rem; 
     margin-top: 3rem;
   }  
+
+  .tpo{
+    margin-top: 1rem;
+  }
 
   .centro-2im{ 
     display: flex;
@@ -833,6 +831,7 @@
     width: 100%;
   }
 
+  
 
 
     .Logo{max-width: 300px;}

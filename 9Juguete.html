@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="src/imagenes/Iconos/Logo.svg" />
+    <link href="media-queries.css" rel="stylesheet" />
 
     <!-- importar bootstrap  -->
     <link
@@ -38,41 +39,40 @@
 
   <body style="background-color:#FFE3E1;">
 
-    <nav class="navbar navbar-expand-lg" style="background-color:#000000;">
+    <nav class="navbar navbar-expand-lg" style="background-color: #FFE3E1; top: 0; position: sticky;">
       <div class="container-fluid">
-      
-        <div class="lo-nom">
-          <img width="50" class="logom" aria-hidden="true" src="./src/imagenes/Iconos/Logo.svg"/>
-          <p class="SNe">fernanda muciño</p>
+        
+        <div class="d-flex align-items-center">
+          <img width="50" class="logom" src="./src/imagenes/Iconos/Logo.svg" />
+          <p class="SNee mb-0 ms-2">fernanda muciño</p>
         </div>
     
-      
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- Botón hamburguesa -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav IC">
-            <img width="28" class="" alt="" src="./src/imagenes/Iconos/CasaNaranja.svg"/>
+    
+        <!-- Menú colapsable -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav text-end">
             <li class="nav-item">
               <a class="nav-link t-home" href="index.html">Home</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link IC" href="index.html">Sobre mi</a>
+              <a class="nav-link ICC" href="#sobremi">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link IC" href="menupro.html">Proyectos</a>
+              <a class="nav-link ICC" href="menupro.html">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link IC" href="Contacto.html">Contacto</a>
+              <a class="nav-link ICC" href="Contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
+    
       </div>
     </nav>
-
     <!-- Inicio Proyecto de Juguete -->
     <section>
       <div class="portada-Ju">
@@ -112,7 +112,7 @@
       </div>
 
       <div class="Cent">
-        <p class="TX col-10">Se creó con el propósito de que los niños inserten las piezas siguiendo su color y su forma. Optamos por darle la 
+        <p class="TX col-12 col-lg-10">Se creó con el propósito de que los niños inserten las piezas siguiendo su color y su forma. Optamos por darle la 
         forma de un camión para que pueda ser desplazado. Su tamaño es apropiado para su etapa de desarrollo.</p>
       </div>
     </section>
@@ -150,7 +150,7 @@
     </section>
 
     <section> 
-      <div class="proceso-4im">
+      <div class="proceso-4im ocul">
         <div><img alt="Proceso 1" src="./src/imagenes/Juguete/PJ1.png"/><h1 class="SNe">Resultado</h1></div>
         <div><img alt="Proceso 2" src="./src/imagenes/Juguete/PJ2.png"/></div>
         <div><img alt="Proceso 3" src="./src/imagenes/Juguete/PJ3.png"/></div>
@@ -162,7 +162,7 @@
     <section>
       <div class="espaciado-jg">
         <div class="Cent">
-          <img width="900" alt="Res 1" src="./src/imagenes/Juguete/RJ1.png"/>
+          <img width="900" class="ocul" alt="Res 1" src="./src/imagenes/Juguete/RJ1.png"/>
         </div>
         <div class="proceso-4im">
           <img alt="Res 2" src="./src/imagenes/Juguete/RJ2.png"/>

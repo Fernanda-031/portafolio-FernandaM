@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="src/imagenes/Iconos/Logo.svg" />
+    <link href="media-queries.css" rel="stylesheet" />
 
     <!-- importar bootstrap  -->
     <link
@@ -38,38 +39,38 @@
 
   <body style="background-color:#FFE3E1;">
 
-    <nav class="navbar navbar-expand-lg" style="background-color:#000000;">
+    <nav class="navbar navbar-expand-lg" style="background-color: #FFE3E1; top: 0; position: sticky;">
       <div class="container-fluid">
-      
-        <div class="lo-nom">
-          <img width="50" class="logom" aria-hidden="true" src="./src/imagenes/Iconos/Logo.svg"/>
-          <p class="SNe">fernanda muciño</p>
+        
+        <div class="d-flex align-items-center">
+          <img width="50" class="logom" src="./src/imagenes/Iconos/Logo.svg" />
+          <p class="SNee mb-0 ms-2">fernanda muciño</p>
         </div>
     
-      
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- Botón hamburguesa -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav IC">
-            <img width="28" class="" alt="" src="./src/imagenes/Iconos/CasaNaranja.svg"/>
+    
+        <!-- Menú colapsable -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav text-end">
             <li class="nav-item">
               <a class="nav-link t-home" href="index.html">Home</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link IC" href="index.html">Sobre mi</a>
+              <a class="nav-link ICC" href="#sobremi">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link IC" href="menupro.html">Proyectos</a>
+              <a class="nav-link ICC" href="menupro.html">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link IC" href="Contacto.html">Contacto</a>
+              <a class="nav-link ICC" href="Contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
+    
       </div>
     </nav>
 
@@ -106,10 +107,10 @@
         </div>
 
           <div class="nubu-4im">
-            <img alt="Plano 2" src="./src/imagenes/Kinder/Plano2.png"/>
-            <img alt="Plano 3" src="./src/imagenes/Kinder/Plano3.png"/>
-            <img alt="Plano 4" src="./src/imagenes/Kinder/Plano4.png"/>
-            <img alt="Plano 5" src="./src/imagenes/Kinder/Plano5.png"/>
+            <img class="ocul" alt="Plano 2" src="./src/imagenes/Kinder/Plano2.png"/>
+            <img class="ocul" alt="Plano 3" src="./src/imagenes/Kinder/Plano3.png"/>
+            <img class="ocul" alt="Plano 4" src="./src/imagenes/Kinder/Plano4.png"/>
+            <img class="ocul" alt="Plano 5" src="./src/imagenes/Kinder/Plano5.png"/>
           </div>
       </div>
     </section>
@@ -157,7 +158,7 @@
       <div class="Cent">
         <div>
           <img alt="Realidad aumentada" src="./src/imagenes/Kinder/RV.png"/>
-          <p class="TX col-9">En el instructivo se agregó a través de la app METACLASS, realidad aumentada del juguete.</p>
+          <p class="TX col-12 col-lg-10">En el instructivo se agregó a través de la app METACLASS, realidad aumentada del juguete.</p>
         </div>
       </div>      
     </section>

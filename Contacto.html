@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="src/imagenes/Iconos/Logo.svg" />
+    <link href="media-queries.css" rel="stylesheet" />
 
     <!-- importar bootstrap  -->
     <link
@@ -38,29 +39,28 @@
 
   <body style="background-color:#FFE3E1;">
 
-    <nav class="navbar navbar-expand-lg" style="background-color:#FFE3E1;">
+    <nav class="navbar navbar-expand-lg" style="background-color: #FFE3E1; top: 0; position: sticky;">
       <div class="container-fluid">
-      
-        <div class="lo-nom">
-          <img width="50" class="logom" aria-hidden="true" src="./src/imagenes/Iconos/Logo.svg"/>
-          <p class="SNee">fernanda muciño</p>
+        
+        <div class="d-flex align-items-center">
+          <img width="50" class="logom" src="./src/imagenes/Iconos/Logo.svg" />
+          <p class="SNee mb-0 ms-2">fernanda muciño</p>
         </div>
     
-      
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- Botón hamburguesa -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav IC">
-            <img width="28" class="" alt="" src="./src/imagenes/Iconos/CasaNaranja.svg"/>
+    
+        <!-- Menú colapsable -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav text-end">
             <li class="nav-item">
-              <a class="nav-link t-home" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link t-home" href="index.html">Home</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link ICC" href="index.html">Sobre mi</a>
+              <a class="nav-link ICC" href="#sobremi">Sobre mi</a>
             </li>
             <li class="nav-item">
               <a class="nav-link ICC" href="menupro.html">Proyectos</a>
@@ -70,6 +70,7 @@
             </li>
           </ul>
         </div>
+    
       </div>
     </nav>
 
@@ -102,6 +103,7 @@
       </section>
   
       <!-- Fin de contacto  -->
+
 
     </body>
 </html>
